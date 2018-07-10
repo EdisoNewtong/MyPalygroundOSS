@@ -83,6 +83,8 @@
 		6F4AD67A17003DF1007699EF /* libcurl.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F4AD67917003DF1007699EF /* libcurl.a */; };
 		6FFE230E176B0639003B3F9F /* CKLBLuaLibHASH.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE230C176B0639003B3F9F /* CKLBLuaLibHASH.cpp */; };
 		6FFE2312176B065B003B3F9F /* hash_sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE2311176B065B003B3F9F /* hash_sha1.c */; };
+		70D22A6620F4BE4600103D7D /* CKLBLuaLibLANG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70D22A6220F4BE4600103D7D /* CKLBLuaLibLANG.cpp */; };
+		70D22A6720F4BE4600103D7D /* CKLBLuaLibRES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70D22A6420F4BE4600103D7D /* CKLBLuaLibRES.cpp */; };
 		806355A4169ED88A0088D141 /* CKLBAsyncLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 806355A2169ED88A0088D141 /* CKLBAsyncLoader.cpp */; };
 		8E0A29E414D12A6E007E98B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0A29E314D12A6E007E98B3 /* UIKit.framework */; };
 		8E0A29E614D12A6E007E98B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0A29E514D12A6E007E98B3 /* Foundation.framework */; };
@@ -489,6 +491,10 @@
 		6FFE230D176B0639003B3F9F /* CKLBLuaLibHASH.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKLBLuaLibHASH.h; path = ../../../../source/LuaLib/CKLBLuaLibHASH.h; sourceTree = "<group>"; };
 		6FFE2310176B065B003B3F9F /* hash_sha1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = hash_sha1.h; path = ../../../../libs/sha1/hash_sha1.h; sourceTree = "<group>"; };
 		6FFE2311176B065B003B3F9F /* hash_sha1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = hash_sha1.c; path = ../../../../libs/sha1/hash_sha1.c; sourceTree = "<group>"; };
+		70D22A6220F4BE4600103D7D /* CKLBLuaLibLANG.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CKLBLuaLibLANG.cpp; path = ../../../../source/LuaLib/CKLBLuaLibLANG.cpp; sourceTree = "<group>"; };
+		70D22A6320F4BE4600103D7D /* CKLBLuaLibLANG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKLBLuaLibLANG.h; path = ../../../../source/LuaLib/CKLBLuaLibLANG.h; sourceTree = "<group>"; };
+		70D22A6420F4BE4600103D7D /* CKLBLuaLibRES.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CKLBLuaLibRES.cpp; path = ../../../../source/LuaLib/CKLBLuaLibRES.cpp; sourceTree = "<group>"; };
+		70D22A6520F4BE4600103D7D /* CKLBLuaLibRES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKLBLuaLibRES.h; path = ../../../../source/LuaLib/CKLBLuaLibRES.h; sourceTree = "<group>"; };
 		806355A2169ED88A0088D141 /* CKLBAsyncLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CKLBAsyncLoader.cpp; sourceTree = "<group>"; };
 		806355A3169ED88A0088D141 /* CKLBAsyncLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKLBAsyncLoader.h; sourceTree = "<group>"; };
 		8E0A29DF14D12A6E007E98B3 /* Sample Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1868,6 +1874,10 @@
 		8EA65E14155D0FF00066E306 /* LuaLib */ = {
 			isa = PBXGroup;
 			children = (
+				70D22A6220F4BE4600103D7D /* CKLBLuaLibLANG.cpp */,
+				70D22A6320F4BE4600103D7D /* CKLBLuaLibLANG.h */,
+				70D22A6420F4BE4600103D7D /* CKLBLuaLibRES.cpp */,
+				70D22A6520F4BE4600103D7D /* CKLBLuaLibRES.h */,
 				6FFE230C176B0639003B3F9F /* CKLBLuaLibHASH.cpp */,
 				6FFE230D176B0639003B3F9F /* CKLBLuaLibHASH.h */,
 				8EC9671415AD6899008FCDEF /* CKLBLuaLibKEY.cpp */,
@@ -2171,6 +2181,7 @@
 				8EE0FEAF15EE2B5B00DFA4FE /* CKLBScrMgrSolid.cpp in Sources */,
 				8EE0FEB215EE2B8000DFA4FE /* IMgrEntry.cpp in Sources */,
 				35D82D1915FD9308003BC008 /* CKLBFormGroup.cpp in Sources */,
+				70D22A6620F4BE4600103D7D /* CKLBLuaLibLANG.cpp in Sources */,
 				8ECDE6CF15FDCD3000CE2A3D /* CKLBStoreService.cpp in Sources */,
 				8EFEBE8615FEEAF3003EB0DF /* CKLBPauseCtrl.cpp in Sources */,
 				35ADF4FA1600A456008155D7 /* CKLBPropertyBag.cpp in Sources */,
@@ -2182,6 +2193,7 @@
 				35887018161EF3D400A762C8 /* NSData+Base64.m in Sources */,
 				35609490163649A40076AAC6 /* CKLBActivityIndicatorNode.cpp in Sources */,
 				35609491163649A40076AAC6 /* CKLBUIActivityIndicator.cpp in Sources */,
+				70D22A6720F4BE4600103D7D /* CKLBLuaLibRES.cpp in Sources */,
 				35916A34163FDFF1003E24D1 /* CiOSTmpFile.cpp in Sources */,
 				35916A3A163FE018003E24D1 /* CKLBSprite3D.cpp in Sources */,
 				3500F79A16422170005228DC /* ITmpFile.cpp in Sources */,
