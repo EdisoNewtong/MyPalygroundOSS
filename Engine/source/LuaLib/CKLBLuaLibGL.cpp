@@ -44,6 +44,10 @@ CKLBLuaLibGL::addLibrary()
 	addFunction("GL_Unloadtexture",			CKLBLuaLibGL::luaGLUnloadTexture		);
 	addFunction("GL_Reloadtexture",			CKLBLuaLibGL::luaGLReloadTexture		);
 	addFunction("GL_DoScreenShot",			CKLBLuaLibGL::luaGLDoScreenShot			);
+    
+    
+    
+    addFunction("GL_GetScreenSize",			CKLBLuaLibGL::luaGLGetScreenSize		);
 }
 
 /*static*/
@@ -146,6 +150,22 @@ CKLBLuaLibGL::luaGLSetResolution(lua_State * L)
 
 	lua.retBoolean(true);
 	return 1;
+}
+
+
+/*static*/
+int CKLBLuaLibGL::luaGLGetScreenSize(lua_State * L)
+{
+    CLuaState lua(L);
+    
+    IClientRequest& itf	= CPFInterface::getInstance().client();
+    int width			= itf.getPhysicalScreenWidth();
+    int height			= itf.getPhysicalScreenHeight();
+    
+    lua.retInt(width);
+    lua.retInt(height);
+    
+    return 2;
 }
 
 int CKLBLuaLibGL::luaGetGuardBand(lua_State * L) {

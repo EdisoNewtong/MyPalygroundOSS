@@ -43,7 +43,8 @@ private:
 	static int luaGLSetQuarter			(lua_State * L);
 	static int luaGLReloadTexture		(lua_State * L);
 	static int luaGLUnloadTexture		(lua_State * L);
-
+    
+    static int luaGLGetScreenSize       (lua_State * L);
 	
 		
 public:
@@ -71,6 +72,7 @@ public:
 	static bool GLCreateScreenAsset	(const char* name);
 	static bool GLDoScreenShot		(const char* name);
 	static void GLFreeScreenAsset	(const char* name);
+    
 };
 
 
