@@ -85,6 +85,217 @@
 		6FFE2312176B065B003B3F9F /* hash_sha1.c in Sources */ = {isa = PBXBuildFile; fileRef = 6FFE2311176B065B003B3F9F /* hash_sha1.c */; };
 		70D22A6620F4BE4600103D7D /* CKLBLuaLibLANG.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70D22A6220F4BE4600103D7D /* CKLBLuaLibLANG.cpp */; };
 		70D22A6720F4BE4600103D7D /* CKLBLuaLibRES.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 70D22A6420F4BE4600103D7D /* CKLBLuaLibRES.cpp */; };
+		70D22B3C20F4CF4B00103D7D /* AlexBrush-Regular-OTF.otf in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A6920F4CF4A00103D7D /* AlexBrush-Regular-OTF.otf */; };
+		70D22B3D20F4CF4B00103D7D /* Argentina.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A6A20F4CF4A00103D7D /* Argentina.png.imag */; };
+		70D22B3E20F4CF4B00103D7D /* Argentina.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A6B20F4CF4A00103D7D /* Argentina.texb */; };
+		70D22B3F20F4CF4B00103D7D /* Argentina_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A6C20F4CF4A00103D7D /* Argentina_Name.png.imag */; };
+		70D22B4020F4CF4B00103D7D /* Argentina_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A6D20F4CF4A00103D7D /* Argentina_Name.texb */; };
+		70D22B4120F4CF4B00103D7D /* Australia.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A6E20F4CF4A00103D7D /* Australia.png.imag */; };
+		70D22B4220F4CF4B00103D7D /* Australia.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A6F20F4CF4A00103D7D /* Australia.texb */; };
+		70D22B4320F4CF4B00103D7D /* Australia_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7020F4CF4A00103D7D /* Australia_Name.png.imag */; };
+		70D22B4420F4CF4B00103D7D /* Australia_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7120F4CF4A00103D7D /* Australia_Name.texb */; };
+		70D22B4520F4CF4B00103D7D /* Belgium.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7220F4CF4A00103D7D /* Belgium.png.imag */; };
+		70D22B4620F4CF4B00103D7D /* Belgium.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7320F4CF4A00103D7D /* Belgium.texb */; };
+		70D22B4720F4CF4B00103D7D /* Belgium_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7420F4CF4A00103D7D /* Belgium_Name.png.imag */; };
+		70D22B4820F4CF4B00103D7D /* Belgium_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7520F4CF4A00103D7D /* Belgium_Name.texb */; };
+		70D22B4920F4CF4B00103D7D /* Brizilia.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7620F4CF4A00103D7D /* Brizilia.png.imag */; };
+		70D22B4A20F4CF4B00103D7D /* Brizilia.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7720F4CF4A00103D7D /* Brizilia.texb */; };
+		70D22B4B20F4CF4B00103D7D /* Brizilia_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7820F4CF4A00103D7D /* Brizilia_Name.png.imag */; };
+		70D22B4C20F4CF4B00103D7D /* Brizilia_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7920F4CF4A00103D7D /* Brizilia_Name.texb */; };
+		70D22B4D20F4CF4B00103D7D /* cd_1.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7A20F4CF4A00103D7D /* cd_1.png.imag */; };
+		70D22B4E20F4CF4B00103D7D /* cd_1.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7B20F4CF4A00103D7D /* cd_1.texb */; };
+		70D22B4F20F4CF4B00103D7D /* cd_2.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7C20F4CF4A00103D7D /* cd_2.png.imag */; };
+		70D22B5020F4CF4B00103D7D /* cd_2.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7D20F4CF4A00103D7D /* cd_2.texb */; };
+		70D22B5120F4CF4B00103D7D /* cd_3.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7E20F4CF4A00103D7D /* cd_3.png.imag */; };
+		70D22B5220F4CF4B00103D7D /* cd_3.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A7F20F4CF4A00103D7D /* cd_3.texb */; };
+		70D22B5320F4CF4B00103D7D /* Checked.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8020F4CF4A00103D7D /* Checked.png.imag */; };
+		70D22B5420F4CF4B00103D7D /* Checked.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8120F4CF4A00103D7D /* Checked.texb */; };
+		70D22B5520F4CF4B00103D7D /* click1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8220F4CF4A00103D7D /* click1.mp3 */; };
+		70D22B5620F4CF4B00103D7D /* click2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8320F4CF4A00103D7D /* click2.mp3 */; };
+		70D22B5720F4CF4B00103D7D /* cm_b_btn_green_n.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8420F4CF4A00103D7D /* cm_b_btn_green_n.png.imag */; };
+		70D22B5820F4CF4B00103D7D /* cm_b_btn_green_n.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8520F4CF4A00103D7D /* cm_b_btn_green_n.texb */; };
+		70D22B5920F4CF4B00103D7D /* cm_b_btn_green_s.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8620F4CF4A00103D7D /* cm_b_btn_green_s.png.imag */; };
+		70D22B5A20F4CF4B00103D7D /* cm_b_btn_green_s.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8720F4CF4A00103D7D /* cm_b_btn_green_s.texb */; };
+		70D22B5B20F4CF4B00103D7D /* cm_b_btn_red_n.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8820F4CF4A00103D7D /* cm_b_btn_red_n.png.imag */; };
+		70D22B5C20F4CF4B00103D7D /* cm_b_btn_red_n.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8920F4CF4A00103D7D /* cm_b_btn_red_n.texb */; };
+		70D22B5D20F4CF4B00103D7D /* cm_b_btn_red_s.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8A20F4CF4A00103D7D /* cm_b_btn_red_s.png.imag */; };
+		70D22B5E20F4CF4B00103D7D /* cm_b_btn_red_s.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8B20F4CF4A00103D7D /* cm_b_btn_red_s.texb */; };
+		70D22B5F20F4CF4B00103D7D /* Columbia.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8C20F4CF4A00103D7D /* Columbia.png.imag */; };
+		70D22B6020F4CF4B00103D7D /* Columbia.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8D20F4CF4A00103D7D /* Columbia.texb */; };
+		70D22B6120F4CF4B00103D7D /* Columbia_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8E20F4CF4A00103D7D /* Columbia_Name.png.imag */; };
+		70D22B6220F4CF4B00103D7D /* Columbia_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A8F20F4CF4A00103D7D /* Columbia_Name.texb */; };
+		70D22B6320F4CF4B00103D7D /* common_mb_bg.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9020F4CF4A00103D7D /* common_mb_bg.png.imag */; };
+		70D22B6420F4CF4B00103D7D /* common_mb_bg.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9120F4CF4A00103D7D /* common_mb_bg.texb */; };
+		70D22B6520F4CF4B00103D7D /* Costarica.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9220F4CF4A00103D7D /* Costarica.png.imag */; };
+		70D22B6620F4CF4B00103D7D /* Costarica.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9320F4CF4A00103D7D /* Costarica.texb */; };
+		70D22B6720F4CF4B00103D7D /* Costarica_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9420F4CF4A00103D7D /* Costarica_Name.png.imag */; };
+		70D22B6820F4CF4B00103D7D /* Costarica_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9520F4CF4A00103D7D /* Costarica_Name.texb */; };
+		70D22B6920F4CF4B00103D7D /* Croatia.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9620F4CF4A00103D7D /* Croatia.png.imag */; };
+		70D22B6A20F4CF4B00103D7D /* Croatia.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9720F4CF4A00103D7D /* Croatia.texb */; };
+		70D22B6B20F4CF4B00103D7D /* Croatia_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9820F4CF4A00103D7D /* Croatia_Name.png.imag */; };
+		70D22B6C20F4CF4B00103D7D /* Croatia_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9920F4CF4A00103D7D /* Croatia_Name.texb */; };
+		70D22B6D20F4CF4B00103D7D /* DenMark.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9A20F4CF4A00103D7D /* DenMark.png.imag */; };
+		70D22B6E20F4CF4B00103D7D /* DenMark.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9B20F4CF4A00103D7D /* DenMark.texb */; };
+		70D22B6F20F4CF4B00103D7D /* DenMark_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9C20F4CF4A00103D7D /* DenMark_Name.png.imag */; };
+		70D22B7020F4CF4B00103D7D /* DenMark_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9D20F4CF4A00103D7D /* DenMark_Name.texb */; };
+		70D22B7120F4CF4B00103D7D /* Egypt.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9E20F4CF4A00103D7D /* Egypt.png.imag */; };
+		70D22B7220F4CF4B00103D7D /* Egypt.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22A9F20F4CF4A00103D7D /* Egypt.texb */; };
+		70D22B7320F4CF4B00103D7D /* Egypt_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AA020F4CF4A00103D7D /* Egypt_Name.png.imag */; };
+		70D22B7420F4CF4B00103D7D /* Egypt_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AA120F4CF4A00103D7D /* Egypt_Name.texb */; };
+		70D22B7520F4CF4B00103D7D /* England.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AA220F4CF4A00103D7D /* England.png.imag */; };
+		70D22B7620F4CF4B00103D7D /* England.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AA320F4CF4B00103D7D /* England.texb */; };
+		70D22B7720F4CF4B00103D7D /* England_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AA420F4CF4B00103D7D /* England_Name.png.imag */; };
+		70D22B7820F4CF4B00103D7D /* England_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AA520F4CF4B00103D7D /* England_Name.texb */; };
+		70D22B7920F4CF4B00103D7D /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AA620F4CF4B00103D7D /* error.mp3 */; };
+		70D22B7A20F4CF4B00103D7D /* exp_cry.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AA720F4CF4B00103D7D /* exp_cry.png.imag */; };
+		70D22B7B20F4CF4B00103D7D /* exp_cry.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AA820F4CF4B00103D7D /* exp_cry.texb */; };
+		70D22B7C20F4CF4B00103D7D /* exp_happy.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AA920F4CF4B00103D7D /* exp_happy.png.imag */; };
+		70D22B7D20F4CF4B00103D7D /* exp_happy.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AAA20F4CF4B00103D7D /* exp_happy.texb */; };
+		70D22B7E20F4CF4B00103D7D /* failed.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AAB20F4CF4B00103D7D /* failed.mp3 */; };
+		70D22B7F20F4CF4B00103D7D /* field_env.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AAC20F4CF4B00103D7D /* field_env.mp3 */; };
+		70D22B8020F4CF4B00103D7D /* football.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AAD20F4CF4B00103D7D /* football.png.imag */; };
+		70D22B8120F4CF4B00103D7D /* football.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AAE20F4CF4B00103D7D /* football.texb */; };
+		70D22B8220F4CF4B00103D7D /* FormBg.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AAF20F4CF4B00103D7D /* FormBg.png.imag */; };
+		70D22B8320F4CF4B00103D7D /* FormBg.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AB020F4CF4B00103D7D /* FormBg.texb */; };
+		70D22B8420F4CF4B00103D7D /* France.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AB120F4CF4B00103D7D /* France.png.imag */; };
+		70D22B8520F4CF4B00103D7D /* France.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AB220F4CF4B00103D7D /* France.texb */; };
+		70D22B8620F4CF4B00103D7D /* France_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AB320F4CF4B00103D7D /* France_Name.png.imag */; };
+		70D22B8720F4CF4B00103D7D /* France_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AB420F4CF4B00103D7D /* France_Name.texb */; };
+		70D22B8820F4CF4B00103D7D /* Germany.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AB520F4CF4B00103D7D /* Germany.png.imag */; };
+		70D22B8920F4CF4B00103D7D /* Germany.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AB620F4CF4B00103D7D /* Germany.texb */; };
+		70D22B8A20F4CF4B00103D7D /* Germany_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AB720F4CF4B00103D7D /* Germany_Name.png.imag */; };
+		70D22B8B20F4CF4B00103D7D /* Germany_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AB820F4CF4B00103D7D /* Germany_Name.texb */; };
+		70D22B8C20F4CF4B00103D7D /* get_cup.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AB920F4CF4B00103D7D /* get_cup.png.imag */; };
+		70D22B8D20F4CF4B00103D7D /* get_cup.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ABA20F4CF4B00103D7D /* get_cup.texb */; };
+		70D22B8E20F4CF4B00103D7D /* globalVar.lua in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ABB20F4CF4B00103D7D /* globalVar.lua */; };
+		70D22B8F20F4CF4B00103D7D /* Go.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ABC20F4CF4B00103D7D /* Go.png.imag */; };
+		70D22B9020F4CF4B00103D7D /* Go.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ABD20F4CF4B00103D7D /* Go.texb */; };
+		70D22B9120F4CF4B00103D7D /* green_field.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ABE20F4CF4B00103D7D /* green_field.png.imag */; };
+		70D22B9220F4CF4B00103D7D /* green_field.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ABF20F4CF4B00103D7D /* green_field.texb */; };
+		70D22B9320F4CF4B00103D7D /* guardCup.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AC020F4CF4B00103D7D /* guardCup.png.imag */; };
+		70D22B9420F4CF4B00103D7D /* guardCup.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AC120F4CF4B00103D7D /* guardCup.texb */; };
+		70D22B9520F4CF4B00103D7D /* heart_icon.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AC220F4CF4B00103D7D /* heart_icon.png.imag */; };
+		70D22B9620F4CF4B00103D7D /* heart_icon.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AC320F4CF4B00103D7D /* heart_icon.texb */; };
+		70D22B9720F4CF4B00103D7D /* Iran.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AC420F4CF4B00103D7D /* Iran.png.imag */; };
+		70D22B9820F4CF4B00103D7D /* Iran.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AC520F4CF4B00103D7D /* Iran.texb */; };
+		70D22B9920F4CF4B00103D7D /* Iran_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AC620F4CF4B00103D7D /* Iran_Name.png.imag */; };
+		70D22B9A20F4CF4B00103D7D /* Iran_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AC720F4CF4B00103D7D /* Iran_Name.texb */; };
+		70D22B9B20F4CF4B00103D7D /* IsLand.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AC820F4CF4B00103D7D /* IsLand.png.imag */; };
+		70D22B9C20F4CF4B00103D7D /* IsLand.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AC920F4CF4B00103D7D /* IsLand.texb */; };
+		70D22B9D20F4CF4B00103D7D /* IsLand_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ACA20F4CF4B00103D7D /* IsLand_Name.png.imag */; };
+		70D22B9E20F4CF4B00103D7D /* IsLand_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ACB20F4CF4B00103D7D /* IsLand_Name.texb */; };
+		70D22B9F20F4CF4B00103D7D /* Japan.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ACC20F4CF4B00103D7D /* Japan.png.imag */; };
+		70D22BA020F4CF4B00103D7D /* Japan.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ACD20F4CF4B00103D7D /* Japan.texb */; };
+		70D22BA120F4CF4B00103D7D /* Japan_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ACE20F4CF4B00103D7D /* Japan_Name.png.imag */; };
+		70D22BA220F4CF4B00103D7D /* Japan_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ACF20F4CF4B00103D7D /* Japan_Name.texb */; };
+		70D22BA320F4CF4B00103D7D /* joint.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AD020F4CF4B00103D7D /* joint.png.imag */; };
+		70D22BA420F4CF4B00103D7D /* joint.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AD120F4CF4B00103D7D /* joint.texb */; };
+		70D22BA520F4CF4B00103D7D /* kick.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AD220F4CF4B00103D7D /* kick.mp3 */; };
+		70D22BA620F4CF4B00103D7D /* Korea.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AD320F4CF4B00103D7D /* Korea.png.imag */; };
+		70D22BA720F4CF4B00103D7D /* Korea.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AD420F4CF4B00103D7D /* Korea.texb */; };
+		70D22BA820F4CF4B00103D7D /* Korea_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AD520F4CF4B00103D7D /* Korea_Name.png.imag */; };
+		70D22BA920F4CF4B00103D7D /* Korea_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AD620F4CF4B00103D7D /* Korea_Name.texb */; };
+		70D22BAA20F4CF4B00103D7D /* left_btn_n.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AD720F4CF4B00103D7D /* left_btn_n.png.imag */; };
+		70D22BAB20F4CF4B00103D7D /* left_btn_n.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AD820F4CF4B00103D7D /* left_btn_n.texb */; };
+		70D22BAC20F4CF4B00103D7D /* left_btn_s.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AD920F4CF4B00103D7D /* left_btn_s.png.imag */; };
+		70D22BAD20F4CF4B00103D7D /* left_btn_s.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ADA20F4CF4B00103D7D /* left_btn_s.texb */; };
+		70D22BAE20F4CF4B00103D7D /* lg_start.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ADB20F4CF4B00103D7D /* lg_start.png.imag */; };
+		70D22BAF20F4CF4B00103D7D /* lg_start.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ADC20F4CF4B00103D7D /* lg_start.texb */; };
+		70D22BB020F4CF4B00103D7D /* MainUI.json in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ADD20F4CF4B00103D7D /* MainUI.json */; };
+		70D22BB120F4CF4B00103D7D /* Mexico.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ADE20F4CF4B00103D7D /* Mexico.png.imag */; };
+		70D22BB220F4CF4B00103D7D /* Mexico.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22ADF20F4CF4B00103D7D /* Mexico.texb */; };
+		70D22BB320F4CF4B00103D7D /* Mexico_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AE020F4CF4B00103D7D /* Mexico_Name.png.imag */; };
+		70D22BB420F4CF4B00103D7D /* Mexico_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AE120F4CF4B00103D7D /* Mexico_Name.texb */; };
+		70D22BB520F4CF4B00103D7D /* Morocco.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AE220F4CF4B00103D7D /* Morocco.png.imag */; };
+		70D22BB620F4CF4B00103D7D /* Morocco.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AE320F4CF4B00103D7D /* Morocco.texb */; };
+		70D22BB720F4CF4B00103D7D /* Morocco_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AE420F4CF4B00103D7D /* Morocco_Name.png.imag */; };
+		70D22BB820F4CF4B00103D7D /* Morocco_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AE520F4CF4B00103D7D /* Morocco_Name.texb */; };
+		70D22BB920F4CF4B00103D7D /* Nigeria.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AE620F4CF4B00103D7D /* Nigeria.png.imag */; };
+		70D22BBA20F4CF4B00103D7D /* Nigeria.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AE720F4CF4B00103D7D /* Nigeria.texb */; };
+		70D22BBB20F4CF4B00103D7D /* Nigeria_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AE820F4CF4B00103D7D /* Nigeria_Name.png.imag */; };
+		70D22BBC20F4CF4B00103D7D /* Nigeria_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AE920F4CF4B00103D7D /* Nigeria_Name.texb */; };
+		70D22BBD20F4CF4B00103D7D /* Panama.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AEA20F4CF4B00103D7D /* Panama.png.imag */; };
+		70D22BBE20F4CF4B00103D7D /* Panama.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AEB20F4CF4B00103D7D /* Panama.texb */; };
+		70D22BBF20F4CF4B00103D7D /* Panama_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AEC20F4CF4B00103D7D /* Panama_Name.png.imag */; };
+		70D22BC020F4CF4B00103D7D /* Panama_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AED20F4CF4B00103D7D /* Panama_Name.texb */; };
+		70D22BC120F4CF4B00103D7D /* Peru.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AEE20F4CF4B00103D7D /* Peru.png.imag */; };
+		70D22BC220F4CF4B00103D7D /* Peru.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AEF20F4CF4B00103D7D /* Peru.texb */; };
+		70D22BC320F4CF4B00103D7D /* Peru_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AF020F4CF4B00103D7D /* Peru_Name.png.imag */; };
+		70D22BC420F4CF4B00103D7D /* Peru_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AF120F4CF4B00103D7D /* Peru_Name.texb */; };
+		70D22BC520F4CF4B00103D7D /* PickBtnText.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AF220F4CF4B00103D7D /* PickBtnText.png.imag */; };
+		70D22BC620F4CF4B00103D7D /* PickBtnText.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AF320F4CF4B00103D7D /* PickBtnText.texb */; };
+		70D22BC720F4CF4B00103D7D /* point.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AF420F4CF4B00103D7D /* point.png.imag */; };
+		70D22BC820F4CF4B00103D7D /* point.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AF520F4CF4B00103D7D /* point.texb */; };
+		70D22BC920F4CF4B00103D7D /* Poland.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AF620F4CF4B00103D7D /* Poland.png.imag */; };
+		70D22BCA20F4CF4B00103D7D /* Poland.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AF720F4CF4B00103D7D /* Poland.texb */; };
+		70D22BCB20F4CF4B00103D7D /* Poland_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AF820F4CF4B00103D7D /* Poland_Name.png.imag */; };
+		70D22BCC20F4CF4B00103D7D /* Poland_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AF920F4CF4B00103D7D /* Poland_Name.texb */; };
+		70D22BCD20F4CF4B00103D7D /* Portugal.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AFA20F4CF4B00103D7D /* Portugal.png.imag */; };
+		70D22BCE20F4CF4B00103D7D /* Portugal.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AFB20F4CF4B00103D7D /* Portugal.texb */; };
+		70D22BCF20F4CF4B00103D7D /* Portugal_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AFC20F4CF4B00103D7D /* Portugal_Name.png.imag */; };
+		70D22BD020F4CF4B00103D7D /* Portugal_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AFD20F4CF4B00103D7D /* Portugal_Name.texb */; };
+		70D22BD120F4CF4B00103D7D /* random.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AFE20F4CF4B00103D7D /* random.mp3 */; };
+		70D22BD220F4CF4B00103D7D /* RandomPick.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22AFF20F4CF4B00103D7D /* RandomPick.png.imag */; };
+		70D22BD320F4CF4B00103D7D /* RandomPick.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0020F4CF4B00103D7D /* RandomPick.texb */; };
+		70D22BD420F4CF4B00103D7D /* ReSelect.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0120F4CF4B00103D7D /* ReSelect.png.imag */; };
+		70D22BD520F4CF4B00103D7D /* ReSelect.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0220F4CF4B00103D7D /* ReSelect.texb */; };
+		70D22BD620F4CF4B00103D7D /* Respons.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0320F4CF4B00103D7D /* Respons.png.imag */; };
+		70D22BD720F4CF4B00103D7D /* Respons.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0420F4CF4B00103D7D /* Respons.texb */; };
+		70D22BD820F4CF4B00103D7D /* right_btn_n.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0520F4CF4B00103D7D /* right_btn_n.png.imag */; };
+		70D22BD920F4CF4B00103D7D /* right_btn_n.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0620F4CF4B00103D7D /* right_btn_n.texb */; };
+		70D22BDA20F4CF4B00103D7D /* right_btn_s.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0720F4CF4B00103D7D /* right_btn_s.png.imag */; };
+		70D22BDB20F4CF4B00103D7D /* right_btn_s.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0820F4CF4B00103D7D /* right_btn_s.texb */; };
+		70D22BDC20F4CF4B00103D7D /* Russia.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0920F4CF4B00103D7D /* Russia.png.imag */; };
+		70D22BDD20F4CF4B00103D7D /* Russia.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0A20F4CF4B00103D7D /* Russia.texb */; };
+		70D22BDE20F4CF4B00103D7D /* Russia_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0B20F4CF4B00103D7D /* Russia_Name.png.imag */; };
+		70D22BDF20F4CF4B00103D7D /* Russia_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0C20F4CF4B00103D7D /* Russia_Name.texb */; };
+		70D22BE020F4CF4B00103D7D /* SaudiArabia.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0D20F4CF4B00103D7D /* SaudiArabia.png.imag */; };
+		70D22BE120F4CF4B00103D7D /* SaudiArabia.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0E20F4CF4B00103D7D /* SaudiArabia.texb */; };
+		70D22BE220F4CF4B00103D7D /* SaudiArabia_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B0F20F4CF4B00103D7D /* SaudiArabia_Name.png.imag */; };
+		70D22BE320F4CF4B00103D7D /* SaudiArabia_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1020F4CF4B00103D7D /* SaudiArabia_Name.texb */; };
+		70D22BE420F4CF4B00103D7D /* SelectTeams.json in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1120F4CF4B00103D7D /* SelectTeams.json */; };
+		70D22BE520F4CF4B00103D7D /* Senegal.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1220F4CF4B00103D7D /* Senegal.png.imag */; };
+		70D22BE620F4CF4B00103D7D /* Senegal.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1320F4CF4B00103D7D /* Senegal.texb */; };
+		70D22BE720F4CF4B00103D7D /* Senegal_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1420F4CF4B00103D7D /* Senegal_Name.png.imag */; };
+		70D22BE820F4CF4B00103D7D /* Senegal_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1520F4CF4B00103D7D /* Senegal_Name.texb */; };
+		70D22BE920F4CF4B00103D7D /* Serbia.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1620F4CF4B00103D7D /* Serbia.png.imag */; };
+		70D22BEA20F4CF4B00103D7D /* Serbia.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1720F4CF4B00103D7D /* Serbia.texb */; };
+		70D22BEB20F4CF4B00103D7D /* Serbia_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1820F4CF4B00103D7D /* Serbia_Name.png.imag */; };
+		70D22BEC20F4CF4B00103D7D /* Serbia_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1920F4CF4B00103D7D /* Serbia_Name.texb */; };
+		70D22BED20F4CF4B00103D7D /* Spain.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1A20F4CF4B00103D7D /* Spain.png.imag */; };
+		70D22BEE20F4CF4B00103D7D /* Spain.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1B20F4CF4B00103D7D /* Spain.texb */; };
+		70D22BEF20F4CF4B00103D7D /* Spain_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1C20F4CF4B00103D7D /* Spain_Name.png.imag */; };
+		70D22BF020F4CF4B00103D7D /* Spain_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1D20F4CF4B00103D7D /* Spain_Name.texb */; };
+		70D22BF120F4CF4B00103D7D /* Speed.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1E20F4CF4B00103D7D /* Speed.png.imag */; };
+		70D22BF220F4CF4B00103D7D /* Speed.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B1F20F4CF4B00103D7D /* Speed.texb */; };
+		70D22BF320F4CF4B00103D7D /* start.lua in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2020F4CF4B00103D7D /* start.lua */; };
+		70D22BF420F4CF4B00103D7D /* startGame.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2120F4CF4B00103D7D /* startGame.png.imag */; };
+		70D22BF520F4CF4B00103D7D /* startGame.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2220F4CF4B00103D7D /* startGame.texb */; };
+		70D22BF620F4CF4B00103D7D /* Sweden.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2320F4CF4B00103D7D /* Sweden.png.imag */; };
+		70D22BF720F4CF4B00103D7D /* Sweden.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2420F4CF4B00103D7D /* Sweden.texb */; };
+		70D22BF820F4CF4B00103D7D /* Sweden_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2520F4CF4B00103D7D /* Sweden_Name.png.imag */; };
+		70D22BF920F4CF4B00103D7D /* Sweden_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2620F4CF4B00103D7D /* Sweden_Name.texb */; };
+		70D22BFA20F4CF4B00103D7D /* Swiss.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2720F4CF4B00103D7D /* Swiss.png.imag */; };
+		70D22BFB20F4CF4B00103D7D /* Swiss.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2820F4CF4B00103D7D /* Swiss.texb */; };
+		70D22BFC20F4CF4B00103D7D /* Swiss_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2920F4CF4B00103D7D /* Swiss_Name.png.imag */; };
+		70D22BFD20F4CF4B00103D7D /* Swiss_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2A20F4CF4B00103D7D /* Swiss_Name.texb */; };
+		70D22BFE20F4CF4B00103D7D /* teamSelect.lua in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2B20F4CF4B00103D7D /* teamSelect.lua */; };
+		70D22BFF20F4CF4B00103D7D /* The_Cup_Of_Life.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2C20F4CF4B00103D7D /* The_Cup_Of_Life.mp3 */; };
+		70D22C0020F4CF4B00103D7D /* Tunisia.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2D20F4CF4B00103D7D /* Tunisia.png.imag */; };
+		70D22C0120F4CF4B00103D7D /* Tunisia.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2E20F4CF4B00103D7D /* Tunisia.texb */; };
+		70D22C0220F4CF4B00103D7D /* Tunisia_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B2F20F4CF4B00103D7D /* Tunisia_Name.png.imag */; };
+		70D22C0320F4CF4B00103D7D /* Tunisia_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B3020F4CF4B00103D7D /* Tunisia_Name.texb */; };
+		70D22C0420F4CF4B00103D7D /* Uruguay.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B3120F4CF4B00103D7D /* Uruguay.png.imag */; };
+		70D22C0520F4CF4B00103D7D /* Uruguay.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B3220F4CF4B00103D7D /* Uruguay.texb */; };
+		70D22C0620F4CF4B00103D7D /* Uruguay_Name.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B3320F4CF4B00103D7D /* Uruguay_Name.png.imag */; };
+		70D22C0720F4CF4B00103D7D /* Uruguay_Name.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B3420F4CF4B00103D7D /* Uruguay_Name.texb */; };
+		70D22C0820F4CF4B00103D7D /* Waka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B3520F4CF4B00103D7D /* Waka.mp3 */; };
+		70D22C0920F4CF4B00103D7D /* win.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B3620F4CF4B00103D7D /* win.mp3 */; };
+		70D22C0A20F4CF4B00103D7D /* winnerTeamShow.lua in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B3720F4CF4B00103D7D /* winnerTeamShow.lua */; };
+		70D22C0B20F4CF4B00103D7D /* world_cupAll.png.imag in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B3820F4CF4B00103D7D /* world_cupAll.png.imag */; };
+		70D22C0C20F4CF4B00103D7D /* world_cupAll.texb in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B3920F4CF4B00103D7D /* world_cupAll.texb */; };
+		70D22C0D20F4CF4B00103D7D /* WorldCup_Main.lua in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B3A20F4CF4B00103D7D /* WorldCup_Main.lua */; };
+		70D22C0E20F4CF4B00103D7D /* worldCupCfg.json in Resources */ = {isa = PBXBuildFile; fileRef = 70D22B3B20F4CF4B00103D7D /* worldCupCfg.json */; };
 		806355A4169ED88A0088D141 /* CKLBAsyncLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 806355A2169ED88A0088D141 /* CKLBAsyncLoader.cpp */; };
 		8E0A29E414D12A6E007E98B3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0A29E314D12A6E007E98B3 /* UIKit.framework */; };
 		8E0A29E614D12A6E007E98B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E0A29E514D12A6E007E98B3 /* Foundation.framework */; };
@@ -495,6 +706,217 @@
 		70D22A6320F4BE4600103D7D /* CKLBLuaLibLANG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKLBLuaLibLANG.h; path = ../../../../source/LuaLib/CKLBLuaLibLANG.h; sourceTree = "<group>"; };
 		70D22A6420F4BE4600103D7D /* CKLBLuaLibRES.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CKLBLuaLibRES.cpp; path = ../../../../source/LuaLib/CKLBLuaLibRES.cpp; sourceTree = "<group>"; };
 		70D22A6520F4BE4600103D7D /* CKLBLuaLibRES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKLBLuaLibRES.h; path = ../../../../source/LuaLib/CKLBLuaLibRES.h; sourceTree = "<group>"; };
+		70D22A6920F4CF4A00103D7D /* AlexBrush-Regular-OTF.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AlexBrush-Regular-OTF.otf"; sourceTree = "<group>"; };
+		70D22A6A20F4CF4A00103D7D /* Argentina.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Argentina.png.imag; sourceTree = "<group>"; };
+		70D22A6B20F4CF4A00103D7D /* Argentina.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Argentina.texb; sourceTree = "<group>"; };
+		70D22A6C20F4CF4A00103D7D /* Argentina_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Argentina_Name.png.imag; sourceTree = "<group>"; };
+		70D22A6D20F4CF4A00103D7D /* Argentina_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Argentina_Name.texb; sourceTree = "<group>"; };
+		70D22A6E20F4CF4A00103D7D /* Australia.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Australia.png.imag; sourceTree = "<group>"; };
+		70D22A6F20F4CF4A00103D7D /* Australia.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Australia.texb; sourceTree = "<group>"; };
+		70D22A7020F4CF4A00103D7D /* Australia_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Australia_Name.png.imag; sourceTree = "<group>"; };
+		70D22A7120F4CF4A00103D7D /* Australia_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Australia_Name.texb; sourceTree = "<group>"; };
+		70D22A7220F4CF4A00103D7D /* Belgium.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Belgium.png.imag; sourceTree = "<group>"; };
+		70D22A7320F4CF4A00103D7D /* Belgium.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Belgium.texb; sourceTree = "<group>"; };
+		70D22A7420F4CF4A00103D7D /* Belgium_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Belgium_Name.png.imag; sourceTree = "<group>"; };
+		70D22A7520F4CF4A00103D7D /* Belgium_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Belgium_Name.texb; sourceTree = "<group>"; };
+		70D22A7620F4CF4A00103D7D /* Brizilia.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brizilia.png.imag; sourceTree = "<group>"; };
+		70D22A7720F4CF4A00103D7D /* Brizilia.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brizilia.texb; sourceTree = "<group>"; };
+		70D22A7820F4CF4A00103D7D /* Brizilia_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brizilia_Name.png.imag; sourceTree = "<group>"; };
+		70D22A7920F4CF4A00103D7D /* Brizilia_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brizilia_Name.texb; sourceTree = "<group>"; };
+		70D22A7A20F4CF4A00103D7D /* cd_1.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = cd_1.png.imag; sourceTree = "<group>"; };
+		70D22A7B20F4CF4A00103D7D /* cd_1.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = cd_1.texb; sourceTree = "<group>"; };
+		70D22A7C20F4CF4A00103D7D /* cd_2.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = cd_2.png.imag; sourceTree = "<group>"; };
+		70D22A7D20F4CF4A00103D7D /* cd_2.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = cd_2.texb; sourceTree = "<group>"; };
+		70D22A7E20F4CF4A00103D7D /* cd_3.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = cd_3.png.imag; sourceTree = "<group>"; };
+		70D22A7F20F4CF4A00103D7D /* cd_3.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = cd_3.texb; sourceTree = "<group>"; };
+		70D22A8020F4CF4A00103D7D /* Checked.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Checked.png.imag; sourceTree = "<group>"; };
+		70D22A8120F4CF4A00103D7D /* Checked.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Checked.texb; sourceTree = "<group>"; };
+		70D22A8220F4CF4A00103D7D /* click1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click1.mp3; sourceTree = "<group>"; };
+		70D22A8320F4CF4A00103D7D /* click2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = click2.mp3; sourceTree = "<group>"; };
+		70D22A8420F4CF4A00103D7D /* cm_b_btn_green_n.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm_b_btn_green_n.png.imag; sourceTree = "<group>"; };
+		70D22A8520F4CF4A00103D7D /* cm_b_btn_green_n.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm_b_btn_green_n.texb; sourceTree = "<group>"; };
+		70D22A8620F4CF4A00103D7D /* cm_b_btn_green_s.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm_b_btn_green_s.png.imag; sourceTree = "<group>"; };
+		70D22A8720F4CF4A00103D7D /* cm_b_btn_green_s.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm_b_btn_green_s.texb; sourceTree = "<group>"; };
+		70D22A8820F4CF4A00103D7D /* cm_b_btn_red_n.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm_b_btn_red_n.png.imag; sourceTree = "<group>"; };
+		70D22A8920F4CF4A00103D7D /* cm_b_btn_red_n.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm_b_btn_red_n.texb; sourceTree = "<group>"; };
+		70D22A8A20F4CF4A00103D7D /* cm_b_btn_red_s.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm_b_btn_red_s.png.imag; sourceTree = "<group>"; };
+		70D22A8B20F4CF4A00103D7D /* cm_b_btn_red_s.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = cm_b_btn_red_s.texb; sourceTree = "<group>"; };
+		70D22A8C20F4CF4A00103D7D /* Columbia.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Columbia.png.imag; sourceTree = "<group>"; };
+		70D22A8D20F4CF4A00103D7D /* Columbia.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Columbia.texb; sourceTree = "<group>"; };
+		70D22A8E20F4CF4A00103D7D /* Columbia_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Columbia_Name.png.imag; sourceTree = "<group>"; };
+		70D22A8F20F4CF4A00103D7D /* Columbia_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Columbia_Name.texb; sourceTree = "<group>"; };
+		70D22A9020F4CF4A00103D7D /* common_mb_bg.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = common_mb_bg.png.imag; sourceTree = "<group>"; };
+		70D22A9120F4CF4A00103D7D /* common_mb_bg.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = common_mb_bg.texb; sourceTree = "<group>"; };
+		70D22A9220F4CF4A00103D7D /* Costarica.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Costarica.png.imag; sourceTree = "<group>"; };
+		70D22A9320F4CF4A00103D7D /* Costarica.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Costarica.texb; sourceTree = "<group>"; };
+		70D22A9420F4CF4A00103D7D /* Costarica_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Costarica_Name.png.imag; sourceTree = "<group>"; };
+		70D22A9520F4CF4A00103D7D /* Costarica_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Costarica_Name.texb; sourceTree = "<group>"; };
+		70D22A9620F4CF4A00103D7D /* Croatia.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Croatia.png.imag; sourceTree = "<group>"; };
+		70D22A9720F4CF4A00103D7D /* Croatia.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Croatia.texb; sourceTree = "<group>"; };
+		70D22A9820F4CF4A00103D7D /* Croatia_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Croatia_Name.png.imag; sourceTree = "<group>"; };
+		70D22A9920F4CF4A00103D7D /* Croatia_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Croatia_Name.texb; sourceTree = "<group>"; };
+		70D22A9A20F4CF4A00103D7D /* DenMark.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = DenMark.png.imag; sourceTree = "<group>"; };
+		70D22A9B20F4CF4A00103D7D /* DenMark.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = DenMark.texb; sourceTree = "<group>"; };
+		70D22A9C20F4CF4A00103D7D /* DenMark_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = DenMark_Name.png.imag; sourceTree = "<group>"; };
+		70D22A9D20F4CF4A00103D7D /* DenMark_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = DenMark_Name.texb; sourceTree = "<group>"; };
+		70D22A9E20F4CF4A00103D7D /* Egypt.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Egypt.png.imag; sourceTree = "<group>"; };
+		70D22A9F20F4CF4A00103D7D /* Egypt.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Egypt.texb; sourceTree = "<group>"; };
+		70D22AA020F4CF4A00103D7D /* Egypt_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Egypt_Name.png.imag; sourceTree = "<group>"; };
+		70D22AA120F4CF4A00103D7D /* Egypt_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Egypt_Name.texb; sourceTree = "<group>"; };
+		70D22AA220F4CF4A00103D7D /* England.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = England.png.imag; sourceTree = "<group>"; };
+		70D22AA320F4CF4B00103D7D /* England.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = England.texb; sourceTree = "<group>"; };
+		70D22AA420F4CF4B00103D7D /* England_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = England_Name.png.imag; sourceTree = "<group>"; };
+		70D22AA520F4CF4B00103D7D /* England_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = England_Name.texb; sourceTree = "<group>"; };
+		70D22AA620F4CF4B00103D7D /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = error.mp3; sourceTree = "<group>"; };
+		70D22AA720F4CF4B00103D7D /* exp_cry.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = exp_cry.png.imag; sourceTree = "<group>"; };
+		70D22AA820F4CF4B00103D7D /* exp_cry.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = exp_cry.texb; sourceTree = "<group>"; };
+		70D22AA920F4CF4B00103D7D /* exp_happy.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = exp_happy.png.imag; sourceTree = "<group>"; };
+		70D22AAA20F4CF4B00103D7D /* exp_happy.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = exp_happy.texb; sourceTree = "<group>"; };
+		70D22AAB20F4CF4B00103D7D /* failed.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failed.mp3; sourceTree = "<group>"; };
+		70D22AAC20F4CF4B00103D7D /* field_env.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = field_env.mp3; sourceTree = "<group>"; };
+		70D22AAD20F4CF4B00103D7D /* football.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = football.png.imag; sourceTree = "<group>"; };
+		70D22AAE20F4CF4B00103D7D /* football.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = football.texb; sourceTree = "<group>"; };
+		70D22AAF20F4CF4B00103D7D /* FormBg.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = FormBg.png.imag; sourceTree = "<group>"; };
+		70D22AB020F4CF4B00103D7D /* FormBg.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = FormBg.texb; sourceTree = "<group>"; };
+		70D22AB120F4CF4B00103D7D /* France.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = France.png.imag; sourceTree = "<group>"; };
+		70D22AB220F4CF4B00103D7D /* France.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = France.texb; sourceTree = "<group>"; };
+		70D22AB320F4CF4B00103D7D /* France_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = France_Name.png.imag; sourceTree = "<group>"; };
+		70D22AB420F4CF4B00103D7D /* France_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = France_Name.texb; sourceTree = "<group>"; };
+		70D22AB520F4CF4B00103D7D /* Germany.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Germany.png.imag; sourceTree = "<group>"; };
+		70D22AB620F4CF4B00103D7D /* Germany.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Germany.texb; sourceTree = "<group>"; };
+		70D22AB720F4CF4B00103D7D /* Germany_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Germany_Name.png.imag; sourceTree = "<group>"; };
+		70D22AB820F4CF4B00103D7D /* Germany_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Germany_Name.texb; sourceTree = "<group>"; };
+		70D22AB920F4CF4B00103D7D /* get_cup.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = get_cup.png.imag; sourceTree = "<group>"; };
+		70D22ABA20F4CF4B00103D7D /* get_cup.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = get_cup.texb; sourceTree = "<group>"; };
+		70D22ABB20F4CF4B00103D7D /* globalVar.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = globalVar.lua; sourceTree = "<group>"; };
+		70D22ABC20F4CF4B00103D7D /* Go.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Go.png.imag; sourceTree = "<group>"; };
+		70D22ABD20F4CF4B00103D7D /* Go.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Go.texb; sourceTree = "<group>"; };
+		70D22ABE20F4CF4B00103D7D /* green_field.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = green_field.png.imag; sourceTree = "<group>"; };
+		70D22ABF20F4CF4B00103D7D /* green_field.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = green_field.texb; sourceTree = "<group>"; };
+		70D22AC020F4CF4B00103D7D /* guardCup.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = guardCup.png.imag; sourceTree = "<group>"; };
+		70D22AC120F4CF4B00103D7D /* guardCup.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = guardCup.texb; sourceTree = "<group>"; };
+		70D22AC220F4CF4B00103D7D /* heart_icon.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = heart_icon.png.imag; sourceTree = "<group>"; };
+		70D22AC320F4CF4B00103D7D /* heart_icon.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = heart_icon.texb; sourceTree = "<group>"; };
+		70D22AC420F4CF4B00103D7D /* Iran.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Iran.png.imag; sourceTree = "<group>"; };
+		70D22AC520F4CF4B00103D7D /* Iran.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Iran.texb; sourceTree = "<group>"; };
+		70D22AC620F4CF4B00103D7D /* Iran_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Iran_Name.png.imag; sourceTree = "<group>"; };
+		70D22AC720F4CF4B00103D7D /* Iran_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Iran_Name.texb; sourceTree = "<group>"; };
+		70D22AC820F4CF4B00103D7D /* IsLand.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = IsLand.png.imag; sourceTree = "<group>"; };
+		70D22AC920F4CF4B00103D7D /* IsLand.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = IsLand.texb; sourceTree = "<group>"; };
+		70D22ACA20F4CF4B00103D7D /* IsLand_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = IsLand_Name.png.imag; sourceTree = "<group>"; };
+		70D22ACB20F4CF4B00103D7D /* IsLand_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = IsLand_Name.texb; sourceTree = "<group>"; };
+		70D22ACC20F4CF4B00103D7D /* Japan.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Japan.png.imag; sourceTree = "<group>"; };
+		70D22ACD20F4CF4B00103D7D /* Japan.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Japan.texb; sourceTree = "<group>"; };
+		70D22ACE20F4CF4B00103D7D /* Japan_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Japan_Name.png.imag; sourceTree = "<group>"; };
+		70D22ACF20F4CF4B00103D7D /* Japan_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Japan_Name.texb; sourceTree = "<group>"; };
+		70D22AD020F4CF4B00103D7D /* joint.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = joint.png.imag; sourceTree = "<group>"; };
+		70D22AD120F4CF4B00103D7D /* joint.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = joint.texb; sourceTree = "<group>"; };
+		70D22AD220F4CF4B00103D7D /* kick.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kick.mp3; sourceTree = "<group>"; };
+		70D22AD320F4CF4B00103D7D /* Korea.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Korea.png.imag; sourceTree = "<group>"; };
+		70D22AD420F4CF4B00103D7D /* Korea.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Korea.texb; sourceTree = "<group>"; };
+		70D22AD520F4CF4B00103D7D /* Korea_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Korea_Name.png.imag; sourceTree = "<group>"; };
+		70D22AD620F4CF4B00103D7D /* Korea_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Korea_Name.texb; sourceTree = "<group>"; };
+		70D22AD720F4CF4B00103D7D /* left_btn_n.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = left_btn_n.png.imag; sourceTree = "<group>"; };
+		70D22AD820F4CF4B00103D7D /* left_btn_n.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = left_btn_n.texb; sourceTree = "<group>"; };
+		70D22AD920F4CF4B00103D7D /* left_btn_s.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = left_btn_s.png.imag; sourceTree = "<group>"; };
+		70D22ADA20F4CF4B00103D7D /* left_btn_s.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = left_btn_s.texb; sourceTree = "<group>"; };
+		70D22ADB20F4CF4B00103D7D /* lg_start.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = lg_start.png.imag; sourceTree = "<group>"; };
+		70D22ADC20F4CF4B00103D7D /* lg_start.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = lg_start.texb; sourceTree = "<group>"; };
+		70D22ADD20F4CF4B00103D7D /* MainUI.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MainUI.json; sourceTree = "<group>"; };
+		70D22ADE20F4CF4B00103D7D /* Mexico.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mexico.png.imag; sourceTree = "<group>"; };
+		70D22ADF20F4CF4B00103D7D /* Mexico.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mexico.texb; sourceTree = "<group>"; };
+		70D22AE020F4CF4B00103D7D /* Mexico_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mexico_Name.png.imag; sourceTree = "<group>"; };
+		70D22AE120F4CF4B00103D7D /* Mexico_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mexico_Name.texb; sourceTree = "<group>"; };
+		70D22AE220F4CF4B00103D7D /* Morocco.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Morocco.png.imag; sourceTree = "<group>"; };
+		70D22AE320F4CF4B00103D7D /* Morocco.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Morocco.texb; sourceTree = "<group>"; };
+		70D22AE420F4CF4B00103D7D /* Morocco_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Morocco_Name.png.imag; sourceTree = "<group>"; };
+		70D22AE520F4CF4B00103D7D /* Morocco_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Morocco_Name.texb; sourceTree = "<group>"; };
+		70D22AE620F4CF4B00103D7D /* Nigeria.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nigeria.png.imag; sourceTree = "<group>"; };
+		70D22AE720F4CF4B00103D7D /* Nigeria.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nigeria.texb; sourceTree = "<group>"; };
+		70D22AE820F4CF4B00103D7D /* Nigeria_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nigeria_Name.png.imag; sourceTree = "<group>"; };
+		70D22AE920F4CF4B00103D7D /* Nigeria_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nigeria_Name.texb; sourceTree = "<group>"; };
+		70D22AEA20F4CF4B00103D7D /* Panama.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panama.png.imag; sourceTree = "<group>"; };
+		70D22AEB20F4CF4B00103D7D /* Panama.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panama.texb; sourceTree = "<group>"; };
+		70D22AEC20F4CF4B00103D7D /* Panama_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panama_Name.png.imag; sourceTree = "<group>"; };
+		70D22AED20F4CF4B00103D7D /* Panama_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Panama_Name.texb; sourceTree = "<group>"; };
+		70D22AEE20F4CF4B00103D7D /* Peru.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Peru.png.imag; sourceTree = "<group>"; };
+		70D22AEF20F4CF4B00103D7D /* Peru.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Peru.texb; sourceTree = "<group>"; };
+		70D22AF020F4CF4B00103D7D /* Peru_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Peru_Name.png.imag; sourceTree = "<group>"; };
+		70D22AF120F4CF4B00103D7D /* Peru_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Peru_Name.texb; sourceTree = "<group>"; };
+		70D22AF220F4CF4B00103D7D /* PickBtnText.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = PickBtnText.png.imag; sourceTree = "<group>"; };
+		70D22AF320F4CF4B00103D7D /* PickBtnText.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = PickBtnText.texb; sourceTree = "<group>"; };
+		70D22AF420F4CF4B00103D7D /* point.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = point.png.imag; sourceTree = "<group>"; };
+		70D22AF520F4CF4B00103D7D /* point.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = point.texb; sourceTree = "<group>"; };
+		70D22AF620F4CF4B00103D7D /* Poland.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Poland.png.imag; sourceTree = "<group>"; };
+		70D22AF720F4CF4B00103D7D /* Poland.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Poland.texb; sourceTree = "<group>"; };
+		70D22AF820F4CF4B00103D7D /* Poland_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Poland_Name.png.imag; sourceTree = "<group>"; };
+		70D22AF920F4CF4B00103D7D /* Poland_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Poland_Name.texb; sourceTree = "<group>"; };
+		70D22AFA20F4CF4B00103D7D /* Portugal.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Portugal.png.imag; sourceTree = "<group>"; };
+		70D22AFB20F4CF4B00103D7D /* Portugal.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Portugal.texb; sourceTree = "<group>"; };
+		70D22AFC20F4CF4B00103D7D /* Portugal_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Portugal_Name.png.imag; sourceTree = "<group>"; };
+		70D22AFD20F4CF4B00103D7D /* Portugal_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Portugal_Name.texb; sourceTree = "<group>"; };
+		70D22AFE20F4CF4B00103D7D /* random.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = random.mp3; sourceTree = "<group>"; };
+		70D22AFF20F4CF4B00103D7D /* RandomPick.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = RandomPick.png.imag; sourceTree = "<group>"; };
+		70D22B0020F4CF4B00103D7D /* RandomPick.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = RandomPick.texb; sourceTree = "<group>"; };
+		70D22B0120F4CF4B00103D7D /* ReSelect.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReSelect.png.imag; sourceTree = "<group>"; };
+		70D22B0220F4CF4B00103D7D /* ReSelect.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = ReSelect.texb; sourceTree = "<group>"; };
+		70D22B0320F4CF4B00103D7D /* Respons.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Respons.png.imag; sourceTree = "<group>"; };
+		70D22B0420F4CF4B00103D7D /* Respons.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Respons.texb; sourceTree = "<group>"; };
+		70D22B0520F4CF4B00103D7D /* right_btn_n.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = right_btn_n.png.imag; sourceTree = "<group>"; };
+		70D22B0620F4CF4B00103D7D /* right_btn_n.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = right_btn_n.texb; sourceTree = "<group>"; };
+		70D22B0720F4CF4B00103D7D /* right_btn_s.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = right_btn_s.png.imag; sourceTree = "<group>"; };
+		70D22B0820F4CF4B00103D7D /* right_btn_s.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = right_btn_s.texb; sourceTree = "<group>"; };
+		70D22B0920F4CF4B00103D7D /* Russia.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Russia.png.imag; sourceTree = "<group>"; };
+		70D22B0A20F4CF4B00103D7D /* Russia.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Russia.texb; sourceTree = "<group>"; };
+		70D22B0B20F4CF4B00103D7D /* Russia_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Russia_Name.png.imag; sourceTree = "<group>"; };
+		70D22B0C20F4CF4B00103D7D /* Russia_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Russia_Name.texb; sourceTree = "<group>"; };
+		70D22B0D20F4CF4B00103D7D /* SaudiArabia.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = SaudiArabia.png.imag; sourceTree = "<group>"; };
+		70D22B0E20F4CF4B00103D7D /* SaudiArabia.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = SaudiArabia.texb; sourceTree = "<group>"; };
+		70D22B0F20F4CF4B00103D7D /* SaudiArabia_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = SaudiArabia_Name.png.imag; sourceTree = "<group>"; };
+		70D22B1020F4CF4B00103D7D /* SaudiArabia_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = SaudiArabia_Name.texb; sourceTree = "<group>"; };
+		70D22B1120F4CF4B00103D7D /* SelectTeams.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = SelectTeams.json; sourceTree = "<group>"; };
+		70D22B1220F4CF4B00103D7D /* Senegal.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Senegal.png.imag; sourceTree = "<group>"; };
+		70D22B1320F4CF4B00103D7D /* Senegal.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Senegal.texb; sourceTree = "<group>"; };
+		70D22B1420F4CF4B00103D7D /* Senegal_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Senegal_Name.png.imag; sourceTree = "<group>"; };
+		70D22B1520F4CF4B00103D7D /* Senegal_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Senegal_Name.texb; sourceTree = "<group>"; };
+		70D22B1620F4CF4B00103D7D /* Serbia.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Serbia.png.imag; sourceTree = "<group>"; };
+		70D22B1720F4CF4B00103D7D /* Serbia.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Serbia.texb; sourceTree = "<group>"; };
+		70D22B1820F4CF4B00103D7D /* Serbia_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Serbia_Name.png.imag; sourceTree = "<group>"; };
+		70D22B1920F4CF4B00103D7D /* Serbia_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Serbia_Name.texb; sourceTree = "<group>"; };
+		70D22B1A20F4CF4B00103D7D /* Spain.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spain.png.imag; sourceTree = "<group>"; };
+		70D22B1B20F4CF4B00103D7D /* Spain.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spain.texb; sourceTree = "<group>"; };
+		70D22B1C20F4CF4B00103D7D /* Spain_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spain_Name.png.imag; sourceTree = "<group>"; };
+		70D22B1D20F4CF4B00103D7D /* Spain_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spain_Name.texb; sourceTree = "<group>"; };
+		70D22B1E20F4CF4B00103D7D /* Speed.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Speed.png.imag; sourceTree = "<group>"; };
+		70D22B1F20F4CF4B00103D7D /* Speed.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Speed.texb; sourceTree = "<group>"; };
+		70D22B2020F4CF4B00103D7D /* start.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = start.lua; sourceTree = "<group>"; };
+		70D22B2120F4CF4B00103D7D /* startGame.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = startGame.png.imag; sourceTree = "<group>"; };
+		70D22B2220F4CF4B00103D7D /* startGame.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = startGame.texb; sourceTree = "<group>"; };
+		70D22B2320F4CF4B00103D7D /* Sweden.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sweden.png.imag; sourceTree = "<group>"; };
+		70D22B2420F4CF4B00103D7D /* Sweden.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sweden.texb; sourceTree = "<group>"; };
+		70D22B2520F4CF4B00103D7D /* Sweden_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sweden_Name.png.imag; sourceTree = "<group>"; };
+		70D22B2620F4CF4B00103D7D /* Sweden_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sweden_Name.texb; sourceTree = "<group>"; };
+		70D22B2720F4CF4B00103D7D /* Swiss.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Swiss.png.imag; sourceTree = "<group>"; };
+		70D22B2820F4CF4B00103D7D /* Swiss.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Swiss.texb; sourceTree = "<group>"; };
+		70D22B2920F4CF4B00103D7D /* Swiss_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Swiss_Name.png.imag; sourceTree = "<group>"; };
+		70D22B2A20F4CF4B00103D7D /* Swiss_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Swiss_Name.texb; sourceTree = "<group>"; };
+		70D22B2B20F4CF4B00103D7D /* teamSelect.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = teamSelect.lua; sourceTree = "<group>"; };
+		70D22B2C20F4CF4B00103D7D /* The_Cup_Of_Life.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = The_Cup_Of_Life.mp3; sourceTree = "<group>"; };
+		70D22B2D20F4CF4B00103D7D /* Tunisia.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tunisia.png.imag; sourceTree = "<group>"; };
+		70D22B2E20F4CF4B00103D7D /* Tunisia.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tunisia.texb; sourceTree = "<group>"; };
+		70D22B2F20F4CF4B00103D7D /* Tunisia_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tunisia_Name.png.imag; sourceTree = "<group>"; };
+		70D22B3020F4CF4B00103D7D /* Tunisia_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tunisia_Name.texb; sourceTree = "<group>"; };
+		70D22B3120F4CF4B00103D7D /* Uruguay.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Uruguay.png.imag; sourceTree = "<group>"; };
+		70D22B3220F4CF4B00103D7D /* Uruguay.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Uruguay.texb; sourceTree = "<group>"; };
+		70D22B3320F4CF4B00103D7D /* Uruguay_Name.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = Uruguay_Name.png.imag; sourceTree = "<group>"; };
+		70D22B3420F4CF4B00103D7D /* Uruguay_Name.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = Uruguay_Name.texb; sourceTree = "<group>"; };
+		70D22B3520F4CF4B00103D7D /* Waka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Waka.mp3; sourceTree = "<group>"; };
+		70D22B3620F4CF4B00103D7D /* win.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = win.mp3; sourceTree = "<group>"; };
+		70D22B3720F4CF4B00103D7D /* winnerTeamShow.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = winnerTeamShow.lua; sourceTree = "<group>"; };
+		70D22B3820F4CF4B00103D7D /* world_cupAll.png.imag */ = {isa = PBXFileReference; lastKnownFileType = file; path = world_cupAll.png.imag; sourceTree = "<group>"; };
+		70D22B3920F4CF4B00103D7D /* world_cupAll.texb */ = {isa = PBXFileReference; lastKnownFileType = file; path = world_cupAll.texb; sourceTree = "<group>"; };
+		70D22B3A20F4CF4B00103D7D /* WorldCup_Main.lua */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WorldCup_Main.lua; sourceTree = "<group>"; };
+		70D22B3B20F4CF4B00103D7D /* worldCupCfg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = worldCupCfg.json; sourceTree = "<group>"; };
 		806355A2169ED88A0088D141 /* CKLBAsyncLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CKLBAsyncLoader.cpp; sourceTree = "<group>"; };
 		806355A3169ED88A0088D141 /* CKLBAsyncLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKLBAsyncLoader.h; sourceTree = "<group>"; };
 		8E0A29DF14D12A6E007E98B3 /* Sample Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sample Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1269,6 +1691,225 @@
 			name = sha1;
 			sourceTree = "<group>";
 		};
+		70D22A6820F4CF4A00103D7D /* publish */ = {
+			isa = PBXGroup;
+			children = (
+				70D22A6920F4CF4A00103D7D /* AlexBrush-Regular-OTF.otf */,
+				70D22A6A20F4CF4A00103D7D /* Argentina.png.imag */,
+				70D22A6B20F4CF4A00103D7D /* Argentina.texb */,
+				70D22A6C20F4CF4A00103D7D /* Argentina_Name.png.imag */,
+				70D22A6D20F4CF4A00103D7D /* Argentina_Name.texb */,
+				70D22A6E20F4CF4A00103D7D /* Australia.png.imag */,
+				70D22A6F20F4CF4A00103D7D /* Australia.texb */,
+				70D22A7020F4CF4A00103D7D /* Australia_Name.png.imag */,
+				70D22A7120F4CF4A00103D7D /* Australia_Name.texb */,
+				70D22A7220F4CF4A00103D7D /* Belgium.png.imag */,
+				70D22A7320F4CF4A00103D7D /* Belgium.texb */,
+				70D22A7420F4CF4A00103D7D /* Belgium_Name.png.imag */,
+				70D22A7520F4CF4A00103D7D /* Belgium_Name.texb */,
+				70D22A7620F4CF4A00103D7D /* Brizilia.png.imag */,
+				70D22A7720F4CF4A00103D7D /* Brizilia.texb */,
+				70D22A7820F4CF4A00103D7D /* Brizilia_Name.png.imag */,
+				70D22A7920F4CF4A00103D7D /* Brizilia_Name.texb */,
+				70D22A7A20F4CF4A00103D7D /* cd_1.png.imag */,
+				70D22A7B20F4CF4A00103D7D /* cd_1.texb */,
+				70D22A7C20F4CF4A00103D7D /* cd_2.png.imag */,
+				70D22A7D20F4CF4A00103D7D /* cd_2.texb */,
+				70D22A7E20F4CF4A00103D7D /* cd_3.png.imag */,
+				70D22A7F20F4CF4A00103D7D /* cd_3.texb */,
+				70D22A8020F4CF4A00103D7D /* Checked.png.imag */,
+				70D22A8120F4CF4A00103D7D /* Checked.texb */,
+				70D22A8220F4CF4A00103D7D /* click1.mp3 */,
+				70D22A8320F4CF4A00103D7D /* click2.mp3 */,
+				70D22A8420F4CF4A00103D7D /* cm_b_btn_green_n.png.imag */,
+				70D22A8520F4CF4A00103D7D /* cm_b_btn_green_n.texb */,
+				70D22A8620F4CF4A00103D7D /* cm_b_btn_green_s.png.imag */,
+				70D22A8720F4CF4A00103D7D /* cm_b_btn_green_s.texb */,
+				70D22A8820F4CF4A00103D7D /* cm_b_btn_red_n.png.imag */,
+				70D22A8920F4CF4A00103D7D /* cm_b_btn_red_n.texb */,
+				70D22A8A20F4CF4A00103D7D /* cm_b_btn_red_s.png.imag */,
+				70D22A8B20F4CF4A00103D7D /* cm_b_btn_red_s.texb */,
+				70D22A8C20F4CF4A00103D7D /* Columbia.png.imag */,
+				70D22A8D20F4CF4A00103D7D /* Columbia.texb */,
+				70D22A8E20F4CF4A00103D7D /* Columbia_Name.png.imag */,
+				70D22A8F20F4CF4A00103D7D /* Columbia_Name.texb */,
+				70D22A9020F4CF4A00103D7D /* common_mb_bg.png.imag */,
+				70D22A9120F4CF4A00103D7D /* common_mb_bg.texb */,
+				70D22A9220F4CF4A00103D7D /* Costarica.png.imag */,
+				70D22A9320F4CF4A00103D7D /* Costarica.texb */,
+				70D22A9420F4CF4A00103D7D /* Costarica_Name.png.imag */,
+				70D22A9520F4CF4A00103D7D /* Costarica_Name.texb */,
+				70D22A9620F4CF4A00103D7D /* Croatia.png.imag */,
+				70D22A9720F4CF4A00103D7D /* Croatia.texb */,
+				70D22A9820F4CF4A00103D7D /* Croatia_Name.png.imag */,
+				70D22A9920F4CF4A00103D7D /* Croatia_Name.texb */,
+				70D22A9A20F4CF4A00103D7D /* DenMark.png.imag */,
+				70D22A9B20F4CF4A00103D7D /* DenMark.texb */,
+				70D22A9C20F4CF4A00103D7D /* DenMark_Name.png.imag */,
+				70D22A9D20F4CF4A00103D7D /* DenMark_Name.texb */,
+				70D22A9E20F4CF4A00103D7D /* Egypt.png.imag */,
+				70D22A9F20F4CF4A00103D7D /* Egypt.texb */,
+				70D22AA020F4CF4A00103D7D /* Egypt_Name.png.imag */,
+				70D22AA120F4CF4A00103D7D /* Egypt_Name.texb */,
+				70D22AA220F4CF4A00103D7D /* England.png.imag */,
+				70D22AA320F4CF4B00103D7D /* England.texb */,
+				70D22AA420F4CF4B00103D7D /* England_Name.png.imag */,
+				70D22AA520F4CF4B00103D7D /* England_Name.texb */,
+				70D22AA620F4CF4B00103D7D /* error.mp3 */,
+				70D22AA720F4CF4B00103D7D /* exp_cry.png.imag */,
+				70D22AA820F4CF4B00103D7D /* exp_cry.texb */,
+				70D22AA920F4CF4B00103D7D /* exp_happy.png.imag */,
+				70D22AAA20F4CF4B00103D7D /* exp_happy.texb */,
+				70D22AAB20F4CF4B00103D7D /* failed.mp3 */,
+				70D22AAC20F4CF4B00103D7D /* field_env.mp3 */,
+				70D22AAD20F4CF4B00103D7D /* football.png.imag */,
+				70D22AAE20F4CF4B00103D7D /* football.texb */,
+				70D22AAF20F4CF4B00103D7D /* FormBg.png.imag */,
+				70D22AB020F4CF4B00103D7D /* FormBg.texb */,
+				70D22AB120F4CF4B00103D7D /* France.png.imag */,
+				70D22AB220F4CF4B00103D7D /* France.texb */,
+				70D22AB320F4CF4B00103D7D /* France_Name.png.imag */,
+				70D22AB420F4CF4B00103D7D /* France_Name.texb */,
+				70D22AB520F4CF4B00103D7D /* Germany.png.imag */,
+				70D22AB620F4CF4B00103D7D /* Germany.texb */,
+				70D22AB720F4CF4B00103D7D /* Germany_Name.png.imag */,
+				70D22AB820F4CF4B00103D7D /* Germany_Name.texb */,
+				70D22AB920F4CF4B00103D7D /* get_cup.png.imag */,
+				70D22ABA20F4CF4B00103D7D /* get_cup.texb */,
+				70D22ABB20F4CF4B00103D7D /* globalVar.lua */,
+				70D22ABC20F4CF4B00103D7D /* Go.png.imag */,
+				70D22ABD20F4CF4B00103D7D /* Go.texb */,
+				70D22ABE20F4CF4B00103D7D /* green_field.png.imag */,
+				70D22ABF20F4CF4B00103D7D /* green_field.texb */,
+				70D22AC020F4CF4B00103D7D /* guardCup.png.imag */,
+				70D22AC120F4CF4B00103D7D /* guardCup.texb */,
+				70D22AC220F4CF4B00103D7D /* heart_icon.png.imag */,
+				70D22AC320F4CF4B00103D7D /* heart_icon.texb */,
+				70D22AC420F4CF4B00103D7D /* Iran.png.imag */,
+				70D22AC520F4CF4B00103D7D /* Iran.texb */,
+				70D22AC620F4CF4B00103D7D /* Iran_Name.png.imag */,
+				70D22AC720F4CF4B00103D7D /* Iran_Name.texb */,
+				70D22AC820F4CF4B00103D7D /* IsLand.png.imag */,
+				70D22AC920F4CF4B00103D7D /* IsLand.texb */,
+				70D22ACA20F4CF4B00103D7D /* IsLand_Name.png.imag */,
+				70D22ACB20F4CF4B00103D7D /* IsLand_Name.texb */,
+				70D22ACC20F4CF4B00103D7D /* Japan.png.imag */,
+				70D22ACD20F4CF4B00103D7D /* Japan.texb */,
+				70D22ACE20F4CF4B00103D7D /* Japan_Name.png.imag */,
+				70D22ACF20F4CF4B00103D7D /* Japan_Name.texb */,
+				70D22AD020F4CF4B00103D7D /* joint.png.imag */,
+				70D22AD120F4CF4B00103D7D /* joint.texb */,
+				70D22AD220F4CF4B00103D7D /* kick.mp3 */,
+				70D22AD320F4CF4B00103D7D /* Korea.png.imag */,
+				70D22AD420F4CF4B00103D7D /* Korea.texb */,
+				70D22AD520F4CF4B00103D7D /* Korea_Name.png.imag */,
+				70D22AD620F4CF4B00103D7D /* Korea_Name.texb */,
+				70D22AD720F4CF4B00103D7D /* left_btn_n.png.imag */,
+				70D22AD820F4CF4B00103D7D /* left_btn_n.texb */,
+				70D22AD920F4CF4B00103D7D /* left_btn_s.png.imag */,
+				70D22ADA20F4CF4B00103D7D /* left_btn_s.texb */,
+				70D22ADB20F4CF4B00103D7D /* lg_start.png.imag */,
+				70D22ADC20F4CF4B00103D7D /* lg_start.texb */,
+				70D22ADD20F4CF4B00103D7D /* MainUI.json */,
+				70D22ADE20F4CF4B00103D7D /* Mexico.png.imag */,
+				70D22ADF20F4CF4B00103D7D /* Mexico.texb */,
+				70D22AE020F4CF4B00103D7D /* Mexico_Name.png.imag */,
+				70D22AE120F4CF4B00103D7D /* Mexico_Name.texb */,
+				70D22AE220F4CF4B00103D7D /* Morocco.png.imag */,
+				70D22AE320F4CF4B00103D7D /* Morocco.texb */,
+				70D22AE420F4CF4B00103D7D /* Morocco_Name.png.imag */,
+				70D22AE520F4CF4B00103D7D /* Morocco_Name.texb */,
+				70D22AE620F4CF4B00103D7D /* Nigeria.png.imag */,
+				70D22AE720F4CF4B00103D7D /* Nigeria.texb */,
+				70D22AE820F4CF4B00103D7D /* Nigeria_Name.png.imag */,
+				70D22AE920F4CF4B00103D7D /* Nigeria_Name.texb */,
+				70D22AEA20F4CF4B00103D7D /* Panama.png.imag */,
+				70D22AEB20F4CF4B00103D7D /* Panama.texb */,
+				70D22AEC20F4CF4B00103D7D /* Panama_Name.png.imag */,
+				70D22AED20F4CF4B00103D7D /* Panama_Name.texb */,
+				70D22AEE20F4CF4B00103D7D /* Peru.png.imag */,
+				70D22AEF20F4CF4B00103D7D /* Peru.texb */,
+				70D22AF020F4CF4B00103D7D /* Peru_Name.png.imag */,
+				70D22AF120F4CF4B00103D7D /* Peru_Name.texb */,
+				70D22AF220F4CF4B00103D7D /* PickBtnText.png.imag */,
+				70D22AF320F4CF4B00103D7D /* PickBtnText.texb */,
+				70D22AF420F4CF4B00103D7D /* point.png.imag */,
+				70D22AF520F4CF4B00103D7D /* point.texb */,
+				70D22AF620F4CF4B00103D7D /* Poland.png.imag */,
+				70D22AF720F4CF4B00103D7D /* Poland.texb */,
+				70D22AF820F4CF4B00103D7D /* Poland_Name.png.imag */,
+				70D22AF920F4CF4B00103D7D /* Poland_Name.texb */,
+				70D22AFA20F4CF4B00103D7D /* Portugal.png.imag */,
+				70D22AFB20F4CF4B00103D7D /* Portugal.texb */,
+				70D22AFC20F4CF4B00103D7D /* Portugal_Name.png.imag */,
+				70D22AFD20F4CF4B00103D7D /* Portugal_Name.texb */,
+				70D22AFE20F4CF4B00103D7D /* random.mp3 */,
+				70D22AFF20F4CF4B00103D7D /* RandomPick.png.imag */,
+				70D22B0020F4CF4B00103D7D /* RandomPick.texb */,
+				70D22B0120F4CF4B00103D7D /* ReSelect.png.imag */,
+				70D22B0220F4CF4B00103D7D /* ReSelect.texb */,
+				70D22B0320F4CF4B00103D7D /* Respons.png.imag */,
+				70D22B0420F4CF4B00103D7D /* Respons.texb */,
+				70D22B0520F4CF4B00103D7D /* right_btn_n.png.imag */,
+				70D22B0620F4CF4B00103D7D /* right_btn_n.texb */,
+				70D22B0720F4CF4B00103D7D /* right_btn_s.png.imag */,
+				70D22B0820F4CF4B00103D7D /* right_btn_s.texb */,
+				70D22B0920F4CF4B00103D7D /* Russia.png.imag */,
+				70D22B0A20F4CF4B00103D7D /* Russia.texb */,
+				70D22B0B20F4CF4B00103D7D /* Russia_Name.png.imag */,
+				70D22B0C20F4CF4B00103D7D /* Russia_Name.texb */,
+				70D22B0D20F4CF4B00103D7D /* SaudiArabia.png.imag */,
+				70D22B0E20F4CF4B00103D7D /* SaudiArabia.texb */,
+				70D22B0F20F4CF4B00103D7D /* SaudiArabia_Name.png.imag */,
+				70D22B1020F4CF4B00103D7D /* SaudiArabia_Name.texb */,
+				70D22B1120F4CF4B00103D7D /* SelectTeams.json */,
+				70D22B1220F4CF4B00103D7D /* Senegal.png.imag */,
+				70D22B1320F4CF4B00103D7D /* Senegal.texb */,
+				70D22B1420F4CF4B00103D7D /* Senegal_Name.png.imag */,
+				70D22B1520F4CF4B00103D7D /* Senegal_Name.texb */,
+				70D22B1620F4CF4B00103D7D /* Serbia.png.imag */,
+				70D22B1720F4CF4B00103D7D /* Serbia.texb */,
+				70D22B1820F4CF4B00103D7D /* Serbia_Name.png.imag */,
+				70D22B1920F4CF4B00103D7D /* Serbia_Name.texb */,
+				70D22B1A20F4CF4B00103D7D /* Spain.png.imag */,
+				70D22B1B20F4CF4B00103D7D /* Spain.texb */,
+				70D22B1C20F4CF4B00103D7D /* Spain_Name.png.imag */,
+				70D22B1D20F4CF4B00103D7D /* Spain_Name.texb */,
+				70D22B1E20F4CF4B00103D7D /* Speed.png.imag */,
+				70D22B1F20F4CF4B00103D7D /* Speed.texb */,
+				70D22B2020F4CF4B00103D7D /* start.lua */,
+				70D22B2120F4CF4B00103D7D /* startGame.png.imag */,
+				70D22B2220F4CF4B00103D7D /* startGame.texb */,
+				70D22B2320F4CF4B00103D7D /* Sweden.png.imag */,
+				70D22B2420F4CF4B00103D7D /* Sweden.texb */,
+				70D22B2520F4CF4B00103D7D /* Sweden_Name.png.imag */,
+				70D22B2620F4CF4B00103D7D /* Sweden_Name.texb */,
+				70D22B2720F4CF4B00103D7D /* Swiss.png.imag */,
+				70D22B2820F4CF4B00103D7D /* Swiss.texb */,
+				70D22B2920F4CF4B00103D7D /* Swiss_Name.png.imag */,
+				70D22B2A20F4CF4B00103D7D /* Swiss_Name.texb */,
+				70D22B2B20F4CF4B00103D7D /* teamSelect.lua */,
+				70D22B2C20F4CF4B00103D7D /* The_Cup_Of_Life.mp3 */,
+				70D22B2D20F4CF4B00103D7D /* Tunisia.png.imag */,
+				70D22B2E20F4CF4B00103D7D /* Tunisia.texb */,
+				70D22B2F20F4CF4B00103D7D /* Tunisia_Name.png.imag */,
+				70D22B3020F4CF4B00103D7D /* Tunisia_Name.texb */,
+				70D22B3120F4CF4B00103D7D /* Uruguay.png.imag */,
+				70D22B3220F4CF4B00103D7D /* Uruguay.texb */,
+				70D22B3320F4CF4B00103D7D /* Uruguay_Name.png.imag */,
+				70D22B3420F4CF4B00103D7D /* Uruguay_Name.texb */,
+				70D22B3520F4CF4B00103D7D /* Waka.mp3 */,
+				70D22B3620F4CF4B00103D7D /* win.mp3 */,
+				70D22B3720F4CF4B00103D7D /* winnerTeamShow.lua */,
+				70D22B3820F4CF4B00103D7D /* world_cupAll.png.imag */,
+				70D22B3920F4CF4B00103D7D /* world_cupAll.texb */,
+				70D22B3A20F4CF4B00103D7D /* WorldCup_Main.lua */,
+				70D22B3B20F4CF4B00103D7D /* worldCupCfg.json */,
+			);
+			name = publish;
+			path = ../../../../../WorldCup/publish;
+			sourceTree = "<group>";
+		};
 		8E0A29D414D12A6E007E98B3 = {
 			isa = PBXGroup;
 			children = (
@@ -1378,6 +2019,7 @@
 		8E3CEEF8152C3775008C7EC1 /* ProjectResources */ = {
 			isa = PBXGroup;
 			children = (
+				70D22A6820F4CF4A00103D7D /* publish */,
 				3287AAB0174C88B900DF0E35 /* MTLmr3m.ttf */,
 			);
 			name = ProjectResources;
@@ -1991,13 +2633,224 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70D22BE920F4CF4B00103D7D /* Serbia.png.imag in Resources */,
+				70D22BE620F4CF4B00103D7D /* Senegal.texb in Resources */,
+				70D22BA820F4CF4B00103D7D /* Korea_Name.png.imag in Resources */,
+				70D22BF320F4CF4B00103D7D /* start.lua in Resources */,
+				70D22B4920F4CF4B00103D7D /* Brizilia.png.imag in Resources */,
+				70D22B6420F4CF4B00103D7D /* common_mb_bg.texb in Resources */,
+				70D22B7620F4CF4B00103D7D /* England.texb in Resources */,
+				70D22B4C20F4CF4B00103D7D /* Brizilia_Name.texb in Resources */,
+				70D22BF020F4CF4B00103D7D /* Spain_Name.texb in Resources */,
+				70D22B4D20F4CF4B00103D7D /* cd_1.png.imag in Resources */,
+				70D22B7220F4CF4B00103D7D /* Egypt.texb in Resources */,
+				70D22BE720F4CF4B00103D7D /* Senegal_Name.png.imag in Resources */,
+				70D22BCC20F4CF4B00103D7D /* Poland_Name.texb in Resources */,
+				70D22B8820F4CF4B00103D7D /* Germany.png.imag in Resources */,
+				70D22BD020F4CF4B00103D7D /* Portugal_Name.texb in Resources */,
+				70D22BC120F4CF4B00103D7D /* Peru.png.imag in Resources */,
+				70D22B6A20F4CF4B00103D7D /* Croatia.texb in Resources */,
+				70D22BF820F4CF4B00103D7D /* Sweden_Name.png.imag in Resources */,
+				70D22BED20F4CF4B00103D7D /* Spain.png.imag in Resources */,
+				70D22BAB20F4CF4B00103D7D /* left_btn_n.texb in Resources */,
+				70D22B5D20F4CF4B00103D7D /* cm_b_btn_red_s.png.imag in Resources */,
+				70D22B9420F4CF4B00103D7D /* guardCup.texb in Resources */,
+				70D22BAA20F4CF4B00103D7D /* left_btn_n.png.imag in Resources */,
+				70D22B6B20F4CF4B00103D7D /* Croatia_Name.png.imag in Resources */,
+				70D22BB020F4CF4B00103D7D /* MainUI.json in Resources */,
+				70D22BAD20F4CF4B00103D7D /* left_btn_s.texb in Resources */,
+				70D22B6120F4CF4B00103D7D /* Columbia_Name.png.imag in Resources */,
+				70D22B5820F4CF4B00103D7D /* cm_b_btn_green_n.texb in Resources */,
 				8E0A29EE14D12A6E007E98B3 /* InfoPlist.strings in Resources */,
+				70D22B8520F4CF4B00103D7D /* France.texb in Resources */,
+				70D22BC920F4CF4B00103D7D /* Poland.png.imag in Resources */,
+				70D22BC820F4CF4B00103D7D /* point.texb in Resources */,
+				70D22BD820F4CF4B00103D7D /* right_btn_n.png.imag in Resources */,
+				70D22BBA20F4CF4B00103D7D /* Nigeria.texb in Resources */,
+				70D22BA420F4CF4B00103D7D /* joint.texb in Resources */,
+				70D22B6220F4CF4B00103D7D /* Columbia_Name.texb in Resources */,
+				70D22B8420F4CF4B00103D7D /* France.png.imag in Resources */,
+				70D22B6020F4CF4B00103D7D /* Columbia.texb in Resources */,
+				70D22BA220F4CF4B00103D7D /* Japan_Name.texb in Resources */,
+				70D22BD920F4CF4B00103D7D /* right_btn_n.texb in Resources */,
+				70D22BAE20F4CF4B00103D7D /* lg_start.png.imag in Resources */,
+				70D22BE420F4CF4B00103D7D /* SelectTeams.json in Resources */,
+				70D22B9D20F4CF4B00103D7D /* IsLand_Name.png.imag in Resources */,
+				70D22BC620F4CF4B00103D7D /* PickBtnText.texb in Resources */,
+				70D22B4020F4CF4B00103D7D /* Argentina_Name.texb in Resources */,
+				70D22B7F20F4CF4B00103D7D /* field_env.mp3 in Resources */,
+				70D22B4620F4CF4B00103D7D /* Belgium.texb in Resources */,
+				70D22BAF20F4CF4B00103D7D /* lg_start.texb in Resources */,
+				70D22BF920F4CF4B00103D7D /* Sweden_Name.texb in Resources */,
+				70D22B6720F4CF4B00103D7D /* Costarica_Name.png.imag in Resources */,
+				70D22B8F20F4CF4B00103D7D /* Go.png.imag in Resources */,
+				70D22BE220F4CF4B00103D7D /* SaudiArabia_Name.png.imag in Resources */,
+				70D22B9C20F4CF4B00103D7D /* IsLand.texb in Resources */,
+				70D22B9120F4CF4B00103D7D /* green_field.png.imag in Resources */,
+				70D22B8320F4CF4B00103D7D /* FormBg.texb in Resources */,
+				70D22B5920F4CF4B00103D7D /* cm_b_btn_green_s.png.imag in Resources */,
+				70D22BC720F4CF4B00103D7D /* point.png.imag in Resources */,
+				70D22C0120F4CF4B00103D7D /* Tunisia.texb in Resources */,
+				70D22B9E20F4CF4B00103D7D /* IsLand_Name.texb in Resources */,
+				70D22B7B20F4CF4B00103D7D /* exp_cry.texb in Resources */,
+				70D22B9320F4CF4B00103D7D /* guardCup.png.imag in Resources */,
+				70D22B5320F4CF4B00103D7D /* Checked.png.imag in Resources */,
+				70D22BE120F4CF4B00103D7D /* SaudiArabia.texb in Resources */,
+				70D22B6620F4CF4B00103D7D /* Costarica.texb in Resources */,
+				70D22B4820F4CF4B00103D7D /* Belgium_Name.texb in Resources */,
+				70D22B4E20F4CF4B00103D7D /* cd_1.texb in Resources */,
 				8E0A29FA14D12A6E007E98B3 /* ViewController_iPhone.xib in Resources */,
+				70D22B6C20F4CF4B00103D7D /* Croatia_Name.texb in Resources */,
+				70D22BBF20F4CF4B00103D7D /* Panama_Name.png.imag in Resources */,
+				70D22C0020F4CF4B00103D7D /* Tunisia.png.imag in Resources */,
+				70D22BFA20F4CF4B00103D7D /* Swiss.png.imag in Resources */,
 				8E0A29FD14D12A6E007E98B3 /* ViewController_iPad.xib in Resources */,
+				70D22BDE20F4CF4B00103D7D /* Russia_Name.png.imag in Resources */,
+				70D22B9520F4CF4B00103D7D /* heart_icon.png.imag in Resources */,
+				70D22B5120F4CF4B00103D7D /* cd_3.png.imag in Resources */,
+				70D22B9720F4CF4B00103D7D /* Iran.png.imag in Resources */,
+				70D22C0E20F4CF4B00103D7D /* worldCupCfg.json in Resources */,
+				70D22BDC20F4CF4B00103D7D /* Russia.png.imag in Resources */,
+				70D22B7420F4CF4B00103D7D /* Egypt_Name.texb in Resources */,
+				70D22BB620F4CF4B00103D7D /* Morocco.texb in Resources */,
+				70D22B6820F4CF4B00103D7D /* Costarica_Name.texb in Resources */,
+				70D22BEB20F4CF4B00103D7D /* Serbia_Name.png.imag in Resources */,
+				70D22C0920F4CF4B00103D7D /* win.mp3 in Resources */,
+				70D22BE520F4CF4B00103D7D /* Senegal.png.imag in Resources */,
+				70D22B4120F4CF4B00103D7D /* Australia.png.imag in Resources */,
+				70D22C0B20F4CF4B00103D7D /* world_cupAll.png.imag in Resources */,
+				70D22BEA20F4CF4B00103D7D /* Serbia.texb in Resources */,
+				70D22BF220F4CF4B00103D7D /* Speed.texb in Resources */,
+				70D22BF620F4CF4B00103D7D /* Sweden.png.imag in Resources */,
+				70D22B7920F4CF4B00103D7D /* error.mp3 in Resources */,
+				70D22BB720F4CF4B00103D7D /* Morocco_Name.png.imag in Resources */,
+				70D22BC420F4CF4B00103D7D /* Peru_Name.texb in Resources */,
+				70D22BEC20F4CF4B00103D7D /* Serbia_Name.texb in Resources */,
+				70D22BB420F4CF4B00103D7D /* Mexico_Name.texb in Resources */,
+				70D22B7E20F4CF4B00103D7D /* failed.mp3 in Resources */,
+				70D22B7C20F4CF4B00103D7D /* exp_happy.png.imag in Resources */,
+				70D22BC220F4CF4B00103D7D /* Peru.texb in Resources */,
+				70D22B8920F4CF4B00103D7D /* Germany.texb in Resources */,
+				70D22BD420F4CF4B00103D7D /* ReSelect.png.imag in Resources */,
+				70D22C0620F4CF4B00103D7D /* Uruguay_Name.png.imag in Resources */,
+				70D22B5C20F4CF4B00103D7D /* cm_b_btn_red_n.texb in Resources */,
+				70D22BA720F4CF4B00103D7D /* Korea.texb in Resources */,
+				70D22B8220F4CF4B00103D7D /* FormBg.png.imag in Resources */,
+				70D22B4A20F4CF4B00103D7D /* Brizilia.texb in Resources */,
+				70D22BEF20F4CF4B00103D7D /* Spain_Name.png.imag in Resources */,
+				70D22B7820F4CF4B00103D7D /* England_Name.texb in Resources */,
+				70D22B9620F4CF4B00103D7D /* heart_icon.texb in Resources */,
+				70D22B5F20F4CF4B00103D7D /* Columbia.png.imag in Resources */,
+				70D22B5A20F4CF4B00103D7D /* cm_b_btn_green_s.texb in Resources */,
+				70D22B5720F4CF4B00103D7D /* cm_b_btn_green_n.png.imag in Resources */,
+				70D22BC020F4CF4B00103D7D /* Panama_Name.texb in Resources */,
+				70D22B3C20F4CF4B00103D7D /* AlexBrush-Regular-OTF.otf in Resources */,
+				70D22B5520F4CF4B00103D7D /* click1.mp3 in Resources */,
+				70D22BE320F4CF4B00103D7D /* SaudiArabia_Name.texb in Resources */,
+				70D22B9F20F4CF4B00103D7D /* Japan.png.imag in Resources */,
+				70D22BD120F4CF4B00103D7D /* random.mp3 in Resources */,
+				70D22B3F20F4CF4B00103D7D /* Argentina_Name.png.imag in Resources */,
+				70D22B8A20F4CF4B00103D7D /* Germany_Name.png.imag in Resources */,
+				70D22B4520F4CF4B00103D7D /* Belgium.png.imag in Resources */,
+				70D22BA920F4CF4B00103D7D /* Korea_Name.texb in Resources */,
+				70D22B4B20F4CF4B00103D7D /* Brizilia_Name.png.imag in Resources */,
 				B0A50A80153425AE008CCF28 /* Default@2x.png in Resources */,
+				70D22C0720F4CF4B00103D7D /* Uruguay_Name.texb in Resources */,
+				70D22B8620F4CF4B00103D7D /* France_Name.png.imag in Resources */,
+				70D22BBD20F4CF4B00103D7D /* Panama.png.imag in Resources */,
+				70D22BA620F4CF4B00103D7D /* Korea.png.imag in Resources */,
+				70D22C0220F4CF4B00103D7D /* Tunisia_Name.png.imag in Resources */,
+				70D22BCE20F4CF4B00103D7D /* Portugal.texb in Resources */,
+				70D22B7520F4CF4B00103D7D /* England.png.imag in Resources */,
+				70D22BFF20F4CF4B00103D7D /* The_Cup_Of_Life.mp3 in Resources */,
+				70D22BCA20F4CF4B00103D7D /* Poland.texb in Resources */,
+				70D22BB120F4CF4B00103D7D /* Mexico.png.imag in Resources */,
+				70D22B5B20F4CF4B00103D7D /* cm_b_btn_red_n.png.imag in Resources */,
 				35E358E716154D460092EB1E /* icon@2x.png in Resources */,
+				70D22C0420F4CF4B00103D7D /* Uruguay.png.imag in Resources */,
+				70D22BF420F4CF4B00103D7D /* startGame.png.imag in Resources */,
+				70D22BD720F4CF4B00103D7D /* Respons.texb in Resources */,
+				70D22C0A20F4CF4B00103D7D /* winnerTeamShow.lua in Resources */,
+				70D22BBE20F4CF4B00103D7D /* Panama.texb in Resources */,
+				70D22BB820F4CF4B00103D7D /* Morocco_Name.texb in Resources */,
+				70D22B9820F4CF4B00103D7D /* Iran.texb in Resources */,
+				70D22B7320F4CF4B00103D7D /* Egypt_Name.png.imag in Resources */,
+				70D22B5420F4CF4B00103D7D /* Checked.texb in Resources */,
+				70D22B8020F4CF4B00103D7D /* football.png.imag in Resources */,
+				70D22B7120F4CF4B00103D7D /* Egypt.png.imag in Resources */,
+				70D22BE020F4CF4B00103D7D /* SaudiArabia.png.imag in Resources */,
+				70D22BE820F4CF4B00103D7D /* Senegal_Name.texb in Resources */,
+				70D22B4220F4CF4B00103D7D /* Australia.texb in Resources */,
+				70D22BA320F4CF4B00103D7D /* joint.png.imag in Resources */,
+				70D22B6E20F4CF4B00103D7D /* DenMark.texb in Resources */,
+				70D22BFC20F4CF4B00103D7D /* Swiss_Name.png.imag in Resources */,
+				70D22BC320F4CF4B00103D7D /* Peru_Name.png.imag in Resources */,
+				70D22B8120F4CF4B00103D7D /* football.texb in Resources */,
+				70D22B4420F4CF4B00103D7D /* Australia_Name.texb in Resources */,
+				70D22B6320F4CF4B00103D7D /* common_mb_bg.png.imag in Resources */,
+				70D22BDB20F4CF4B00103D7D /* right_btn_s.texb in Resources */,
+				70D22BFD20F4CF4B00103D7D /* Swiss_Name.texb in Resources */,
+				70D22BCD20F4CF4B00103D7D /* Portugal.png.imag in Resources */,
+				70D22BBC20F4CF4B00103D7D /* Nigeria_Name.texb in Resources */,
+				70D22B5220F4CF4B00103D7D /* cd_3.texb in Resources */,
+				70D22BCB20F4CF4B00103D7D /* Poland_Name.png.imag in Resources */,
+				70D22B9220F4CF4B00103D7D /* green_field.texb in Resources */,
+				70D22B4F20F4CF4B00103D7D /* cd_2.png.imag in Resources */,
+				70D22BAC20F4CF4B00103D7D /* left_btn_s.png.imag in Resources */,
+				70D22BA120F4CF4B00103D7D /* Japan_Name.png.imag in Resources */,
+				70D22BF520F4CF4B00103D7D /* startGame.texb in Resources */,
+				70D22B6920F4CF4B00103D7D /* Croatia.png.imag in Resources */,
+				70D22B4320F4CF4B00103D7D /* Australia_Name.png.imag in Resources */,
+				70D22B8C20F4CF4B00103D7D /* get_cup.png.imag in Resources */,
+				70D22B6D20F4CF4B00103D7D /* DenMark.png.imag in Resources */,
+				70D22B5020F4CF4B00103D7D /* cd_2.texb in Resources */,
+				70D22B3E20F4CF4B00103D7D /* Argentina.texb in Resources */,
+				70D22BBB20F4CF4B00103D7D /* Nigeria_Name.png.imag in Resources */,
+				70D22B4720F4CF4B00103D7D /* Belgium_Name.png.imag in Resources */,
+				70D22BFE20F4CF4B00103D7D /* teamSelect.lua in Resources */,
+				70D22B8720F4CF4B00103D7D /* France_Name.texb in Resources */,
+				70D22BA020F4CF4B00103D7D /* Japan.texb in Resources */,
+				70D22BF120F4CF4B00103D7D /* Speed.png.imag in Resources */,
+				70D22BD520F4CF4B00103D7D /* ReSelect.texb in Resources */,
+				70D22C0C20F4CF4B00103D7D /* world_cupAll.texb in Resources */,
+				70D22BDF20F4CF4B00103D7D /* Russia_Name.texb in Resources */,
+				70D22B7020F4CF4B00103D7D /* DenMark_Name.texb in Resources */,
+				70D22B9020F4CF4B00103D7D /* Go.texb in Resources */,
+				70D22BCF20F4CF4B00103D7D /* Portugal_Name.png.imag in Resources */,
+				70D22B7D20F4CF4B00103D7D /* exp_happy.texb in Resources */,
+				70D22C0320F4CF4B00103D7D /* Tunisia_Name.texb in Resources */,
+				70D22B8D20F4CF4B00103D7D /* get_cup.texb in Resources */,
+				70D22C0820F4CF4B00103D7D /* Waka.mp3 in Resources */,
+				70D22B9B20F4CF4B00103D7D /* IsLand.png.imag in Resources */,
+				70D22B8E20F4CF4B00103D7D /* globalVar.lua in Resources */,
+				70D22B7A20F4CF4B00103D7D /* exp_cry.png.imag in Resources */,
+				70D22B5620F4CF4B00103D7D /* click2.mp3 in Resources */,
+				70D22B8B20F4CF4B00103D7D /* Germany_Name.texb in Resources */,
+				70D22BD220F4CF4B00103D7D /* RandomPick.png.imag in Resources */,
+				70D22B3D20F4CF4B00103D7D /* Argentina.png.imag in Resources */,
+				70D22B9920F4CF4B00103D7D /* Iran_Name.png.imag in Resources */,
+				70D22B9A20F4CF4B00103D7D /* Iran_Name.texb in Resources */,
+				70D22B7720F4CF4B00103D7D /* England_Name.png.imag in Resources */,
+				70D22BB920F4CF4B00103D7D /* Nigeria.png.imag in Resources */,
+				70D22BA520F4CF4B00103D7D /* kick.mp3 in Resources */,
 				3287AAB1174C88B900DF0E35 /* MTLmr3m.ttf in Resources */,
+				70D22BD320F4CF4B00103D7D /* RandomPick.texb in Resources */,
+				70D22BB520F4CF4B00103D7D /* Morocco.png.imag in Resources */,
+				70D22BB220F4CF4B00103D7D /* Mexico.texb in Resources */,
+				70D22BB320F4CF4B00103D7D /* Mexico_Name.png.imag in Resources */,
+				70D22B5E20F4CF4B00103D7D /* cm_b_btn_red_s.texb in Resources */,
+				70D22BDA20F4CF4B00103D7D /* right_btn_s.png.imag in Resources */,
+				70D22BFB20F4CF4B00103D7D /* Swiss.texb in Resources */,
 				17729FCE17C316F400D4E765 /* Default-568h@2x.png in Resources */,
+				70D22BDD20F4CF4B00103D7D /* Russia.texb in Resources */,
+				70D22C0520F4CF4B00103D7D /* Uruguay.texb in Resources */,
+				70D22B6520F4CF4B00103D7D /* Costarica.png.imag in Resources */,
+				70D22B6F20F4CF4B00103D7D /* DenMark_Name.png.imag in Resources */,
+				70D22C0D20F4CF4B00103D7D /* WorldCup_Main.lua in Resources */,
+				70D22BC520F4CF4B00103D7D /* PickBtnText.png.imag in Resources */,
+				70D22BF720F4CF4B00103D7D /* Sweden.texb in Resources */,
+				70D22BEE20F4CF4B00103D7D /* Spain.texb in Resources */,
+				70D22BD620F4CF4B00103D7D /* Respons.png.imag in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
