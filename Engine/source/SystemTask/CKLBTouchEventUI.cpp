@@ -128,16 +128,22 @@ CKLBTouchEventUIMgr::processUI()
 			yf = (float)item->y;
 
 			u32 msk = 1 << item->id;
-
+        
+            // printf("touch Type = %d\n",item->type);
 			switch(item->type)
 			{
 			case PAD_ITEM::TAP:
+            case PAD_ITEM::LongTap:
 				{
-					if ((tapMask & msk) != 0) {  
+                    bool isLongTap = (item->type==PAD_ITEM::LongTap);
+                    // printf("type = %s\n",item->type==PAD_ITEM::TAP ? "TAP" : "LongLongTap");
+					if ((tapMask & msk) != 0) {
+                        
 						break;
 					}
 					CKLBUISelectable * hitObj = CKLBUISystem::hitTest(xf, yf);
 					if(hitObj) {
+                        // printf("In TAP , hitObj != NULL\n");
 						// そのコントロールが含まれるフォーム情報を得る
 						SFormCtrlList * pList = searchCtrl(hitObj);
 						if(pList) {
@@ -150,9 +156,17 @@ CKLBTouchEventUIMgr::processUI()
 							// そのフォームが排他コントロールフォームであり、
 							// なおかつ同じフォームに含まれる他のコントロールが操作中であるならば
 							// その操作はなかったことにする。
-							if(fGrp.isWorking(pList)) break;
+                            if(fGrp.isWorking(pList)){
+                                // printf("Is In Work , break :(\n");
+                                if(!isLongTap) {
+                                    break;
+                                }
+                            }
+                            // printf("Set In Work = true\n");
 							fGrp.setWorking(pList, true);
 						}
+                        
+                        
 						CKLBAction action;
 						if (hitObj->isVisible()) {
 							m_pTarget[item->id] = hitObj;
@@ -160,7 +174,11 @@ CKLBTouchEventUIMgr::processUI()
 							m_tapPos[item->id].y = item->y;
 
 							if (hitObj->isEnabled()) {
-								action.m_actionType = ACTION_PUSH;
+                                if( item->type == PAD_ITEM::TAP) {
+                                    action.m_actionType = ACTION_PUSH;
+                                } else {
+                                    action.m_actionType = ACTION_LONGTAP;
+                                }
 								hitObj->processAction(&action);
 							}
 
@@ -289,7 +307,9 @@ CKLBTouchEventUIMgr::processUI()
 					}
 				}
 				break;
+
 			}
+        
 			/*
 			CKLBUISelectable* hitObj = CKLBUISystem::hitTest(xf, yf);
 

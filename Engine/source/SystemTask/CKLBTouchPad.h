@@ -30,7 +30,9 @@ typedef struct {
         TAP,
         DRAG,
         RELEASE,
-		CANCEL
+		CANCEL,
+        
+        LongTap,
     } TYPE;
 
     TYPE    type;
@@ -97,6 +99,8 @@ public:
 		m_ignoreOutScreen	= ignore;
 		m_maskIgnoreFinger	= 0; // Reset all fingers.
 	}
+    
+    void update(int deltaT);
 
 private:
 	bool			m_bDoingProcess;
@@ -109,10 +113,14 @@ private:
 	u32				m_maskIgnoreFinger;
 	bool			m_ignoreOutScreen;
     
+    int             m_touchBegin_rec;
+    long long int   m_accumuationTime;
+    
     enum {
         QUEUE_SIZE = 1024
     };
     
+    static int  S_LongTapTimeDuring;
     PAD_ITEM    m_itemQueue[ QUEUE_SIZE ];
 };
 

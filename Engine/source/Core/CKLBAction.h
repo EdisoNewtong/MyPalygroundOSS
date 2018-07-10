@@ -33,7 +33,9 @@ enum ACTION_TYPE {
 	ACTION_ENDANIM			= 6,
 	ACTION_FOCUS			= 7,
 	ACTION_STATECHANGE		= 8,
-	ACTION_CUSTOM			= 0x10
+	ACTION_CUSTOM			= 0x10,	// 0x10 = 16
+    // Added by Edison , by LongTap Support
+    ACTION_LONGTAP          = 0xA,	// 0xA = 10
 };
 
 /**

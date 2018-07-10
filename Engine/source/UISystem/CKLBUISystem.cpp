@@ -861,6 +861,7 @@ CKLBUISelectable::processAction	(CKLBAction* pAction)
 
 	switch (pAction->m_actionType) {
 	case ACTION_PUSH:
+    case ACTION_LONGTAP:
 		sendEvent((ACTION_TYPE)pAction->m_actionType, 0);
 		break;
 	case ACTION_RELEASE:

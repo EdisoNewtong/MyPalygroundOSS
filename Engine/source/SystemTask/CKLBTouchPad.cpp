@@ -20,8 +20,13 @@
 #include "CKLBTouchPad.h"
 #include "CKLBDrawTask.h"
 
+//
+// xxx ms Keep , Means Long Tap
+//
+int CKLBTouchPadQueue::S_LongTapTimeDuring = 450;
+
 CKLBTouchPadQueue::CKLBTouchPadQueue()
-	: m_begin(0), m_read(0), m_rec(0), m_get(0), m_bDoingProcess(false), m_ignoreOutScreen(false), m_maskIgnoreFinger(0)
+	: m_begin(0), m_read(0), m_rec(0), m_get(0), m_bDoingProcess(false), m_ignoreOutScreen(false), m_maskIgnoreFinger(0) , m_touchBegin_rec(-1) , m_accumuationTime(0)
 {
     float matrix[6] = {
         1.0f, 0.0f, 0.0f,
@@ -53,6 +58,10 @@ CKLBTouchPadQueue::addQueue(int id, IClientRequest::INPUT_TYPE gtype, int x, int
 	int xp = (int)(m_matrix[0] * x + m_matrix[3] * y + m_matrix[2]);
 	int yp = (int)(m_matrix[1] * x + m_matrix[4] * y + m_matrix[5]);
 	m_itemQueue[m_rec].locker = 0;
+    if( type == PAD_ITEM::TAP) {
+        m_touchBegin_rec = m_rec;
+    }
+    
 
 	if (m_ignoreOutScreen) {
 		CKLBDrawResource& draw = CKLBDrawResource::getInstance();
@@ -63,7 +72,7 @@ CKLBTouchPadQueue::addQueue(int id, IClientRequest::INPUT_TYPE gtype, int x, int
 			if (outsideScreen) {
 				m_maskIgnoreFinger |= 1<<id;
 				next = m_rec; // Cancel current event.
-			}
+            }
 			break;
 		case PAD_ITEM::DRAG:
 			if (m_maskIgnoreFinger & (1<<id)) {
@@ -125,6 +134,50 @@ CKLBTouchPadQueue::setConvertMatrix(float *matrix)
     int i;
     for(i = 0; i < 6; i++) m_matrix[i] = matrix[i];
 }
+
+
+void CKLBTouchPadQueue::update(int deltaT)
+{
+    
+    if(m_touchBegin_rec>=0  ) {
+        if( m_touchBegin_rec == m_rec-1  ) {
+            m_accumuationTime += deltaT;
+            if( m_accumuationTime>= S_LongTapTimeDuring ) {
+                // Always touch in the same position
+                // trigle long tap
+                //printf("###########################################################\n");
+                printf("Edison Log :  LongTap\n");
+                //printf("###########################################################\n");
+                
+                m_itemQueue[m_rec].id = m_itemQueue[m_touchBegin_rec].id;
+                m_itemQueue[m_rec].type = PAD_ITEM::LongTap;
+                m_itemQueue[m_rec].locker = 0;
+                m_itemQueue[m_rec].x = m_itemQueue[m_touchBegin_rec].x;
+                m_itemQueue[m_rec].y = m_itemQueue[m_touchBegin_rec].y;
+                
+                int next = m_rec + 1;
+                if( next >=QUEUE_SIZE) {
+                    next = 0;
+                }
+                
+                m_touchBegin_rec = m_rec;
+                m_rec = next;
+                
+            }
+        } else {
+            // touch state changed
+            //printf("###########################################################\n");
+            //printf("Edison Log :  Touch State Changed\n");
+            //printf("###########################################################\n");
+            m_accumuationTime = 0;
+            
+            m_touchBegin_rec = -1;
+        }
+    }
+    
+}
+
+
 
 
 CKLBTouchPad::CKLBTouchPad() : CKLBTask() {}

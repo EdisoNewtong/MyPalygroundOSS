@@ -171,6 +171,10 @@ CKLBGameApplication::frameFlip(u32 deltaT)
         // changeScreenMatrix(m_origin, m_width, m_height);
     }
 	bool bContinue = CKLBTaskMgr::getInstance().execute(deltaT);
+    
+    // Added by Edison
+    CKLBTouchPadQueue::getInstance().update(deltaT);
+    
 	if(m_reboot) {
 		finishGame();
 		initGame();
