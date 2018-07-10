@@ -30,7 +30,7 @@ __MACOSX/
 /Engine/porting/Android/GameEngine-android/src/
 
 # iOS 
-/Engine/porting/iOS/Project/
+#/Engine/porting/iOS/Project/
 xcuserdata/
 project.xcworkspace/
 
