@@ -1,0 +1,64 @@
+{
+	"greenField_x" : 150,
+	"greenField_y" : 70,
+	"greenField_w" : 800,
+	"greenField_h" : 450,
+
+	"football_radius" : 32,
+	"worldcup_radius" : 50,
+
+	"decide_time" : 100,
+	"show_target_animation" : 500,
+
+	"cup_step" : 25,
+
+	"same_direction_pass" : false,
+
+	"Russia"	  : { "response" : 300, "speed" : 880 },
+	"SaudiArabia" : { "response" : 320, "speed" : 650 },
+	"Egypt" : { "response" : 350, "speed" : 700 },
+	"Uruguay" : { "response" : 220, "speed" : 990 },
+
+	"Portugal" : { "response" : 250, "speed" : 970 },
+	"Spain" : { "response" : 180, "speed" : 940 },
+	"Morocco" : { "response" : 530, "speed" : 500 },
+	"Iran" : { "response" : 360, "speed" : 700 },
+
+	"France" : { "response" : 150, "speed" : 1100 },
+	"Australia" : { "response" : 300, "speed" : 700 },
+	"Peru" : { "response" : 420, "speed" : 450 },
+	"DenMark" : { "response" : 220, "speed" : 860 },
+	
+	"Argentina" : { "response" : 120, "speed" : 1050 },
+	"IsLand" : { "response" : 275, "speed" : 835 },
+	"Croatia" : { "response" : 105, "speed" : 1030 },
+	"Nigeria" : { "response" : 255, "speed" : 930 },
+	
+	"Brizilia" : { "response" : 80, "speed" : 1200 },
+	"Swiss" : { "response" : 300, "speed" : 860 },
+	"Costarica" : { "response" : 390, "speed" : 720 },
+	"Serbia" : { "response" : 345, "speed" : 920 },
+
+	"Germany" : { "response" : 200, "speed" : 950 },
+	"Mexico" : { "response" : 300, "speed" : 750 },
+	"Sweden" : { "response" : 220, "speed" : 910 },
+	"Korea" : { "response" : 405, "speed" : 740 },
+
+	"Belgium" : { "response" : 120, "speed" : 1100 },
+	"Panama" : { "response" : 470, "speed" : 600 },
+	"Tunisia" : { "response" : 320, "speed" : 820 },
+	"England" : { "response" : 130, "speed" : 1080 },
+
+	"Poland" : { "response" : 320, "speed" : 680 },
+	"Senegal" : { "response" : 340, "speed" : 790 },
+	"Columbia" : { "response" : 380, "speed" : 630 },
+	"Japan" : { "response" : 390, "speed" : 600 },
+
+
+	"topLeft_speed" : 1200,
+	"topMiddle_speed" : 500,
+	"topRight_speed" : 300,
+	"bottomRight_speed" : 600,
+	"bottomMiddle_speed" : 800,
+	"bottomLeft_speed" :  450
+}
